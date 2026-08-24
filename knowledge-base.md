@@ -8,6 +8,26 @@ format and source guidance.
 
 ## 2026-08-24
 
+### Search Console logging bug inflated apparent impressions/clicks drop (Aug 12–13 on)
+Google confirmed a logging error affecting the Generative AI Performance
+report and the Discover performance report in Search Console, causing a
+visible drop in reported impressions (and clicks, on Discover) for data
+starting August 12–13, 2026. John Mueller confirmed on record this is a
+data-logging issue only, not a real change in Search visibility. Google
+plans to add an in-product annotation; a fix is still in progress. The dip
+is widespread, and overlapped with the general SERP volatility reported
+ahead of the Aug 18–21 spam update, which may explain some of that
+volatility being misread as ranking movement.
+**What this means:** If a client reports a sudden impressions/clicks drop
+specifically in the Generative AI Performance or Discover reports for data
+from Aug 12–13 onward, check whether it's this reporting bug before
+diagnosing it as a real visibility or ranking issue — cross-check against
+the standard Search results performance report and analytics, which are
+unaffected. Not "always significant" per this repo's criteria (not a
+core/spam algo update, schema change, or AI Overview citation-behavior
+shift), but useful for heading off client panic over phantom traffic loss.
+Sources: [Search Engine Land](https://searchengineland.com/google-search-console-generative-ai-performance-report-in-search-data-bug-485215), [Search Engine Roundtable](https://www.seroundtable.com/google-search-console-performance-reports-drop-41884.html)
+
 ### ChatGPT Search: Reddit's citation share collapsed ~86–95% in one week — MAJOR (GEO/AEO)
 Reddit held roughly 2–3.8% of ChatGPT Search citations through early August 2026,
 then cratered to under 1% (some trackers report as low as 0.07%) between Aug
