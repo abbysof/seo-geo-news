@@ -27,3 +27,39 @@ which references this one for general industry context.
   ChatGPT, Perplexity, etc. surface or cite sites (GEO/AEO territory).
   Credible previews/rumors of upcoming changes count too, not just shipped
   ones — label those clearly as "anticipated" in the entry.
+
+## Certainty labels
+
+Every entry heading carries a certainty tag, so a skim tells you how much
+weight to put on it. This is separate from `MAJOR`, which marks significance
+— an item can be `CHATTER` and `MAJOR` at the same time.
+
+- **`[CONFIRMED]`** — officially announced or verifiably shipped: Google
+  Search Central, an OpenAI/Anthropic/Perplexity changelog, an on-record
+  statement from a company spokesperson, or a change anyone can reproduce.
+- **`[ANTICIPATED]`** — credibly previewed but not yet live: a pre-announced
+  rollout, a documented deprecation date, a feature spotted in testing, an
+  official "coming soon".
+- **`[CHATTER]`** — unconfirmed community signal: forum and Reddit threads,
+  ranking-volatility tracker spikes, practitioners reporting the same thing
+  independently, with no official confirmation. Worth logging early, because
+  chatter is usually how a core update gets noticed before Google confirms
+  it — but never present it to a client as fact.
+
+Heading format: `### [CHATTER] Widespread ranking volatility reported — MAJOR`
+
+When an item graduates — chatter that Google later confirms — do NOT rewrite
+the old entry. Add a new dated entry marked `[CONFIRMED]` and note that it
+confirms the earlier chatter. The log is a timeline, not a live status page;
+the history of what was suspected when is itself useful.
+
+## Chatter sources
+
+Beyond the default publications, check community and volatility sources for
+looming/unconfirmed changes: the Search Engine Roundtable forum roundups,
+WebmasterWorld, r/SEO, r/bigseo, r/TechSEO, the Google Search Central help
+community, and practitioners who track this closely (Barry Schwartz, Glenn
+Gabe, Lily Ray). For volatility specifically: Semrush Sensor, Mozcast,
+Algoroo, Advanced Web Ranking. Corroboration matters — one person posting
+that their traffic dropped is not a signal; the same report from several
+unrelated sites on the same days is.
