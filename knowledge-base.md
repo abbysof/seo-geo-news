@@ -6,6 +6,39 @@ format and source guidance.
 
 ---
 
+## 2026-09-09
+
+### [CONFIRMED] Google rolls out DMA-mandated EEA search redesign, calls it biggest quality drop in its history — MAJOR
+Google deployed a sweeping redesign of search results across the European
+Economic Area on Sept 8, 2026, under pressure from a €460 million EU fine
+(handed down in July) for self-preferencing under the Digital Markets Act.
+Google Search Central documented two new EEA-only result units: an
+"aggregator unit" giving approved Vertical Search Services (OTAs, comparison
+shopping engines, metasearch, directories) a prominent block for hotel,
+flight, train/bus, and product queries — only one shows at a time, top
+provider expanded, others behind a dropdown — plus a "supplier unit" for
+direct businesses (individual hotels, airlines) that only appears alongside
+an aggregator unit. A trailing carousel of businesses no longer shows live
+pricing or availability. Google told Reuters on record that these changes
+mark "the largest reduction in quality of service" at Google Search in its
+29-year history, said internal testing found widespread user frustration
+and repeat searching, and warned the change will likely deepen an already-
+reported 30% decline in free direct-booking referrals to European
+businesses since earlier DMA compliance measures.
+**What this means:** For EEA-based or EEA-targeting clients in travel,
+hospitality, or e-commerce, expect organic visibility and direct-booking
+referral traffic to keep eroding as Google itself predicts — this is a
+structural SERP layout change, not a ranking-factor tweak, so it won't
+resolve with content or technical fixes. Clients competing in hotel/flight/
+product queries may need to evaluate a presence on the approved Vertical
+Search Services that now get featured placement, since ranking organically
+below the aggregator/supplier units may no longer be enough. Worth
+confirming whether affected clients' EEA queries now show these new units
+and auditing referral-traffic trends since Sept 8.
+Sources: [Search Engine Land](https://searchengineland.com/google-says-dma-changes-in-eu-resulted-in-worse-degradation-of-search-quality-ever-487340), [Search Engine Roundtable](https://www.seroundtable.com/google-eu-dma-largest-reduction-quality-42042.html), [Search Engine Journal — redesigned units](https://www.searchenginejournal.com/google-rolls-out-redesigned-search-results-across-the-eea/588870/), [RTE](https://www.rte.ie/news/business/2026/0908/1590739-google-warns-of-lower-quality-amid-europe-search-revamp/)
+
+---
+
 ## 2026-09-07
 
 ### [CONFIRMED] Gemini 3.8 Flash rolls out in AI Mode, briefly breaks citations — MAJOR (GEO/AEO)
