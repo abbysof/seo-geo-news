@@ -6,6 +6,28 @@ format and source guidance.
 
 ---
 
+## 2026-09-11
+
+### [CONFIRMED] Mueller: programmatic SEO can make Google "lose faith" in a whole site, not just the low-value pages
+On Bluesky, reported by Search Engine Roundtable and Search Engine Journal on
+Sept 10, 2026, Google's John Mueller said mass-produced programmatic SEO
+"often leads to a site that's either spam, borderline spam, or low quality,"
+and when that happens Google's systems "have possibly lost faith in your
+site providing good value to users based on the old pages" — meaning the
+distrust attaches to the whole site, not just the flagged pages. He noted
+mass-generated pages can be deleted in an afternoon, but recovery "tends to
+take time and significant effort to show the value," so a site can keep
+paying for them long after they're gone.
+**What this means:** For any client running programmatic or AI-scaled
+content, removing low-value pages after a hit (from the Aug 2026 spam update
+or otherwise) is necessary but not sufficient — budget for a longer trust-
+rebuilding period and set client expectations that recovery will lag the
+cleanup itself.
+Sources: [Search Engine Roundtable](https://www.seroundtable.com/google-lose-faith-42032.html), [Search Engine Journal](https://www.searchenginejournal.com/google-says-old-low-value-pages-may-affect-site-recovery/588837/)
+Evidence: search-result snippets only — searchengineland.com, seroundtable.com, searchenginejournal.com, webmasterworld.com, status.search.google.com, developers.google.com, and leadadvisors.com were all blocked by the egress proxy this run.
+
+---
+
 ## 2026-09-09
 
 ### [CONFIRMED] Google rolls out DMA-mandated EEA search redesign, calls it biggest quality drop in its history — MAJOR
