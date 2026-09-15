@@ -6,6 +6,67 @@ format and source guidance.
 
 ---
 
+## 2026-09-15
+
+### [CONFIRMED] Google pilots paying publishers for content used in AI Mode, AI Overviews, and Gemini — MAJOR (GEO/AEO)
+Google confirmed on Sept 14, 2026 that it's running an early-stage, invite-only
+"AI Contribution Pilot," surfaced via a new "AI earnings" widget inside Search
+Console for participating publishers. Payment is usage-based: it accrues only
+when a publisher's content contributes significantly while an AI answer is
+being generated in AI Mode, AI Overviews, or the Gemini app — being linked to
+or used to confirm a fact *after* the answer is generated doesn't qualify. No
+upfront fee, no long-term commitment, and Google hasn't published a payout
+formula; at least dozens of publishers (skewing small/mid-size, beyond just
+news) have reportedly been approached, and one report described early payouts
+as "peanuts" next to ad revenue.
+**What this means:** This is the first confirmed sign Google will pay
+directly for AI-answer sourcing rather than leaving GEO/AEO value purely as
+referral-traffic upside. Worth flagging to content-heavy clients now — ask
+whether they've been approached, and watch for the payout formula and
+eligibility criteria to go public, since that will start to answer how much
+weight "being the cited source" should carry versus ranking for click-through.
+Sources: [Search Engine Land](https://searchengineland.com/google-tests-paying-publishers-for-using-its-content-in-ai-mode-ai-overviews-and-gemini-488382), [Search Engine Roundtable](https://www.seroundtable.com/google-al-contribution-pilot-42076.html), [Search Engine Journal](https://www.searchenginejournal.com/google-tests-paying-publishers-for-ai-answers-via-search-console/589414/)
+Evidence: search-result snippets only — searchengineland.com, seroundtable.com, and searchenginejournal.com were blocked by the egress proxy this run.
+
+### [CONFIRMED] Google admits Search Console's AI Overview "position" data is meaningless
+John Mueller confirmed on Reddit (surfaced Sept 10–13, 2026) that Search
+Console's Search performance report assigns every link inside an AI Overview
+the position of the AI Overview block itself, not the link's actual position
+within the generated answer — so "position" data for AI Overview appearances
+doesn't reflect where a site is actually cited. Mueller said Google doesn't
+have a better solution yet.
+**What this means:** Don't use Search Console "position" as a proxy for AI
+Overview visibility in client reporting — call out the limitation explicitly
+and lean on other signals (manual spot-checks, query fan-out estimates) until
+Google ships a fix.
+Sources: [Search Engine Journal](https://www.searchenginejournal.com/google-admits-search-console-reporting-for-ai-search-is-inadequate/589236/)
+Evidence: search-result snippet only — searchenginejournal.com was blocked by the egress proxy this run.
+
+### [CHATTER] Unconfirmed Google ranking update ~Sept 3–4, largely reverted Sept 13 — MAJOR
+Glenn Gabe and Marie Haynes independently flagged an unannounced Google
+ranking shift hitting a number of large sites around Sept 3–4, 2026. Barry
+Schwartz/Search Engine Roundtable reported Sept 14 that sites which "fell off
+a cliff" around 9/4 — dropping heavily in Search and, for some, Discover —
+largely surged back once the change reverted on Sept 13. The WebmasterWorld
+"September 2026 Google Search Observations" megathread separately describes a
+stranger symptom in the same window: organic rankings and Search Console
+positions climbing while actual traffic, Discover visibility, and even Google
+Ads conversions cratered — several posters speculate something is broken
+under the hood rather than a normal ranking algorithm change. Google's status
+dashboard never listed an update.
+**Corroboration:** independent, on-record posts from two established
+analysts (Gabe, Haynes) + Schwartz/SER + an active WebmasterWorld thread with
+multiple unrelated site owners reporting the same rank-vs-traffic disconnect.
+**What would confirm or kill it:** an official Google acknowledgment or
+status-dashboard entry would confirm it; continued silence with volatility
+already cooling since the Sept 13 reversal likely means it joins the pile of
+permanently-unconfirmed tweaks. Watch for whether the rank/traffic disconnect
+described on WebmasterWorld recurs or spreads.
+Sources: [Search Engine Roundtable](https://www.seroundtable.com/google-search-ranking-update-94-42079.html), [SingleGrain](https://www.singlegrain.com/seo/unconfirmed-google-update-september-2026/), [WebmasterWorld thread](https://www.webmasterworld.com/google/5133853.htm)
+Evidence: search-result snippets only — seroundtable.com and webmasterworld.com were blocked by the egress proxy this run; singlegrain.com was not fetch-tested but expected to be in the same blocked class.
+
+---
+
 ## 2026-09-11
 
 ### [CONFIRMED] Mueller: programmatic SEO can make Google "lose faith" in a whole site, not just the low-value pages
