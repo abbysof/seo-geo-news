@@ -6,6 +6,36 @@ format and source guidance.
 
 ---
 
+## 2026-09-17
+
+### [CHATTER] Fresh wave of Google ranking volatility reported starting Sept 15 — MAJOR
+Search Engine Roundtable published a dedicated post ("Google Search Ranking
+Volatility Heating Up September 15th") describing a new spike in forum
+chatter and volatility-tracker activity beginning Sept 15, 2026 — two days
+after the earlier Sept 3–4 ranking shift (logged here Sept 15) reverted. The
+"September 2026 Google Search Observations" megathread on WebmasterWorld
+picked up fresh reports the same day from site owners across multiple
+regions, including the UK, describing "massive drops in impressions" and
+ranking reshuffles severe enough that posters compared them to a full
+update; some described traffic falling sharply at a specific time of day
+(e.g. clicks dropping from roughly 30K/day to 10K/day). Google's Search
+Status Dashboard has not listed any update.
+**Corroboration:** SER's own volatility framing (chatter plus trackers
+"starting to heat up") plus multiple unrelated site owners across different
+regions independently posting the same symptom — sharp impression/traffic
+drops — within the same short window on WebmasterWorld. Not yet
+cross-confirmed with a published Semrush Sensor/Mozcast/Algoroo score, and
+it's unclear whether this is a genuinely new event or a second wave tied to
+the Sept 3–4 shift.
+**What would confirm or kill it:** an official Google acknowledgment, or a
+published tracker score spiking on Sept 15–16 alongside the forum reports,
+would confirm it; if it fades without an official update the way the Sept
+3–4 shift did, it joins the pile of unconfirmed blips.
+Sources: [Search Engine Roundtable](https://www.seroundtable.com/google-update-42091.html), [WebmasterWorld thread](https://www.webmasterworld.com/google/5133853-2-30.htm)
+Evidence: search-result snippets only — seroundtable.com and webmasterworld.com were blocked by the egress proxy this run.
+
+---
+
 ## 2026-09-15
 
 ### [CONFIRMED] Google pilots paying publishers for content used in AI Mode, AI Overviews, and Gemini — MAJOR (GEO/AEO)
