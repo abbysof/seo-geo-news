@@ -6,6 +6,28 @@ format and source guidance.
 
 ---
 
+## 2026-09-21
+
+### [CONFIRMED] Cloudflare's default AI-crawler block goes live, catches Googlebot in the net — MAJOR (GEO/AEO)
+Cloudflare's new default AI-traffic settings, announced July 1, 2026 and scheduled to take effect Sept 15, 2026, went live on schedule. Cloudflare now classifies crawlers into three uses — Search, Agent, and Training — and for any ad-bearing page on a new Cloudflare domain (plus any existing zone that never saved an explicit preference), Training and Agent crawlers are blocked by default while Search crawlers remain allowed. Because Google, Microsoft, and Apple each use a single multi-purpose crawler for both indexing and AI-training/agent fetches, Cloudflare applies the strictest matching rule — meaning Googlebot, Bingbot, and Applebot get blocked wherever a site's Training restriction is active, unless the site owner explicitly opts back in. Search Engine Journal and others reported site owners inadvertently losing Google indexing, not just AI-training access, because they hadn't reviewed the new defaults before the cutover.
+**What this means:** Any client on Cloudflare needs their AI Crawler Control settings audited now — the risk isn't just losing ChatGPT/Perplexity training access, it's accidentally deindexing from Google Search itself if "Block AI Training" was ever toggled on without an explicit Search-crawler carve-out. This also reshapes the GEO calculus: sites that lock out Training crawlers by default may see reduced future citation eligibility in AI answer engines that rely on fresh crawls rather than licensed data.
+Sources: [Cloudflare Blog](https://blog.cloudflare.com/content-independence-day-ai-options/), [TechCrunch](https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/), [Search Engine Journal](https://www.searchenginejournal.com/report-that-cloudflare-ai-bot-blocking-prevents-googlebot-from-indexing-sites/584673/)
+Evidence: search-result snippets only — blog.cloudflare.com, techcrunch.com, and searchenginejournal.com were all blocked by the egress proxy this run.
+
+### [CONFIRMED] Google removes free product listings across the EEA, near-total collapse within two days — MAJOR
+Search Engine Roundtable reported Sept 18, 2026 that Google removed free/organic product listings and "popular products" carousels from Search across the European Economic Area, with tracked data showing roughly 90–100% drops within two days in Germany, France, Belgium, Sweden, and the Netherlands. Google's Ginny Marvin confirmed it as a DMA-compliance step, part of the same EEA search redesign logged here Sept 9. The carousel space is being replaced by a "Comparison Sites" unit listing approved comparison-shopping services (one expanded by default); paid Shopping ads are untouched.
+**What this means:** For EEA e-commerce clients, free organic product visibility in Google Search has effectively disappeared overnight — the only remaining routes to that placement are a listing with an approved comparison-shopping service (CSS) or paid Shopping ads. This escalates the Sept 9 DMA redesign from a structural layout change into a direct revenue-model shift for EEA product queries; audit affected clients' EEA organic Shopping traffic immediately and evaluate CSS partnerships or paid placement budget.
+Sources: [Search Engine Roundtable](https://www.seroundtable.com/google-drops-free-product-listings-eea-42113.html), [PPC Land](https://ppc.land/google-drops-free-shopping-listings-across-europe-in-two-days/)
+Evidence: search-result snippets only — seroundtable.com and ppc.land were blocked by the egress proxy this run.
+
+### [ANTICIPATED] Google tests AI Mode button inside the search bar on the results page — MAJOR (GEO/AEO)
+Barry Schwartz/Search Engine Roundtable reported Sept 18, 2026 that Google is testing an AI Mode button placed directly in the search bar while on the search results page itself (not just the homepage), alongside a "Google Search" button — echoing an earlier homepage test that replaced the "I'm Feeling Lucky" button. A Google spokesperson confirmed the feature is being tested via Labs with a subset of opted-in users and said tested products don't always launch broadly.
+**What this means:** This is another incremental push to route users from traditional organic results into AI Mode mid-session, not just at query time — worth tracking for its effect on organic CTR if it expands beyond the Labs test. Per this repo's standing policy, any shift in how AI Mode/AI Overviews surface gets flagged regardless of scale; watch for Google confirming a broader rollout.
+Sources: [Search Engine Roundtable](https://www.seroundtable.com/google-search-bar-testing-ai-mode-button-42110.html)
+Evidence: search-result snippets only — seroundtable.com was blocked by the egress proxy this run.
+
+---
+
 ## 2026-09-17
 
 ### [CHATTER] Fresh wave of Google ranking volatility reported starting Sept 15 — MAJOR
