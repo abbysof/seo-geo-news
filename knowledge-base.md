@@ -6,6 +6,16 @@ format and source guidance.
 
 ---
 
+## 2026-09-23
+
+### [ANTICIPATED] Google tests AI Overview links that route to AI Mode instead of publisher sites — MAJOR (GEO/AEO)
+Spotted by SEO practitioner Gagan Ghotra on X and reported by Search Engine Roundtable on Sept 21, 2026: Google is testing anchor-style links inside AI Overview follow-up-question prompts that, instead of leading to a publisher's web page, drop the searcher straight into AI Mode. The links look like normal outbound citations but resolve to a Google-hosted AI Mode conversation rather than an external site. No official Google confirmation found yet, and it appears to be a limited, spotted-in-the-wild test rather than a broad rollout.
+**What this means:** This extends the pattern flagged here Sept 21 (the AI Mode button test in the search bar) a step further — Google isn't just adding AI Mode entry points, it's testing links that visually resemble citations but keep the user inside Google's own AI Mode surface instead of sending them out. If this expands, expect further compression of AI-Overview referral traffic even on links that look like they credit a source; watch for whether it broadens beyond this initial spotted instance or Google confirms it.
+Sources: [Search Engine Roundtable](https://www.seroundtable.com/google-ai-overview-links-to-ai-mode-42132.html)
+Evidence: search-result snippets only — seroundtable.com was blocked by the egress proxy this run.
+
+---
+
 ## 2026-09-21
 
 ### [CONFIRMED] Cloudflare's default AI-crawler block goes live, catches Googlebot in the net — MAJOR (GEO/AEO)
