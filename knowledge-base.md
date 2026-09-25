@@ -6,6 +6,28 @@ format and source guidance.
 
 ---
 
+## 2026-09-25
+
+### [CONFIRMED] Google releases September 2026 spam update, longest rollout window of the year — MAJOR
+Google's Search Status Dashboard shows the September 2026 spam update began rolling out Sept 24 at 9:15am PDT, applying globally across all languages. It's the fourth confirmed spam update of 2026 (after March, June, and August), and Google says this rollout may take up to two weeks — longer than the "few days" window given to each of the year's three prior spam updates. Google hasn't disclosed which spam behavior or system change the update targets. The rollout followed a spike in unconfirmed ranking-volatility chatter and tracker activity that Search Engine Roundtable and the WebmasterWorld "September 2026 Google Search Observations" thread had already flagged starting Sept 23 — posters described AI Overviews surfacing unrelated results, entire ranked keyword sets swapped out overnight, and Discover traffic dropping at the same hour on consecutive days.
+**What this means:** Sites seeing ranking or traffic swings from Sept 23 onward now have a confirmed cause rather than an open question — check Search Console for changes and revisit Google's spam policies (scaled content abuse and site reputation abuse are the usual targets of these updates) before assuming a technical issue. Because this rollout is roughly double the length of prior 2026 spam updates, expect continued movement for up to two weeks; hold off on diagnosing client-specific issues as something else until it settles.
+Sources: [Search Engine Journal](https://www.searchenginejournal.com/google-september-2026-spam-update/590828/), [Search Engine Land](https://searchengineland.com/google-releases-september-2026-spam-update-491267), [Search Engine Roundtable](https://www.seroundtable.com/google-september-2026-spam-update-42163.html)
+Evidence: search-result snippets only — searchengineland.com and seroundtable.com were blocked by the egress proxy this run; status.search.google.com (Google's own status dashboard) was also blocked when attempting direct verification.
+
+### [ANTICIPATED] Google tests moving AI Overviews off the top of the page for hotel searches — MAJOR (GEO/AEO)
+Search Engine Roundtable reported around Sept 23, 2026 that Google is testing relocating the AI Overview for hotel-related searches out of its usual top-of-page slot into a bottom/side-panel position next to the hotel knowledge panel, rather than leading the results page. No official Google confirmation was cited; it appears to be a spotted-in-the-wild test limited to the hotel vertical.
+**What this means:** Consistent with the AI Mode/AI Overview placement tests logged here Sept 21 and 23, Google keeps experimenting with where generative answers sit relative to organic results — this time by de-emphasizing AI Overview prominence for a specific vertical rather than expanding it. Watch whether this is really about verticals with strong existing knowledge panels (travel, local) crowding out AI Overviews, or a broader signal that AI Overview placement is becoming situational — it could cut either way for referral traffic in affected verticals.
+Sources: [Search Engine Roundtable](https://www.seroundtable.com/google-hotel-ai-overviews-42146.html)
+Evidence: search-result snippets only — seroundtable.com was blocked by the egress proxy this run.
+
+### [CONFIRMED] Search Console adds a multimodal filter for Lens, Circle to Search, and image-upload traffic
+Google's Search Central Blog confirmed Sept 24, 2026 that Search Console's Performance report now splits the "Web" search type into "Text-based" and "Multimodal," with the latter covering Lens, Android's Circle to Search, image uploads to Google Search, and Chrome's "Search this image." The rollout is global, but multimodal rows report impressions, clicks, and position only — no query data, since these searches start from an image rather than text.
+**What this means:** This is a reporting change, not a ranking or visibility shift, but it's the first time site owners get any visibility into how much traffic is coming from image-based search — worth a first look for image-heavy or product clients now that the data exists, even without query-level detail to act on yet.
+Sources: [Search Engine Journal](https://www.searchenginejournal.com/google-search-console-multimodal-filter/590781/), [Search Engine Roundtable](https://www.seroundtable.com/google-search-console-multimodal-search-type-filter-42156.html)
+Evidence: search-result snippets only — seroundtable.com and developers.google.com (Google's own Search Central Blog) were blocked by the egress proxy this run.
+
+---
+
 ## 2026-09-23
 
 ### [ANTICIPATED] Google tests AI Overview links that route to AI Mode instead of publisher sites — MAJOR (GEO/AEO)
