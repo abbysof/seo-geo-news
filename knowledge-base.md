@@ -6,6 +6,16 @@ format and source guidance.
 
 ---
 
+## 2026-09-28
+
+### [ANTICIPATED] Google tests shorter AI Overview design on desktop — MAJOR (GEO/AEO)
+Search Engine Watch reported around Sept 25, 2026 that Google is testing a more compact AI Overview design on desktop that takes up less vertical space in the SERP than the current format, potentially surfacing organic results sooner on the page. No official Google confirmation was cited, and this run found no independent outlet corroborating the specific design change despite repeated searches — it's a single-source, spotted-in-testing report.
+**What this means:** Consistent with the run of AI Overview placement/prominence experiments logged here Sept 21, 23, and 25, a shorter default AI Overview could modestly help organic CTR below the fold if it ships broadly. Watch for Search Engine Roundtable or another outlet to corroborate, and for whether a shorter overview also means fewer or differently-weighted citations within it.
+Sources: [Search Engine Watch](https://searchenginewatch.com/google-tests-shorter-ai-overview-design-on-desktop/)
+Evidence: search-result snippets only — searchenginewatch.com was blocked by the egress proxy this run; no corroborating source found on Search Engine Roundtable or elsewhere.
+
+---
+
 ## 2026-09-25
 
 ### [CONFIRMED] Google releases September 2026 spam update, longest rollout window of the year — MAJOR
