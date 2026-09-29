@@ -6,6 +6,18 @@ format and source guidance.
 
 ---
 
+## 2026-09-29
+
+### [CHATTER] September 2026 spam update hits hard over the weekend, health/finance/gambling among the worst-shaken — MAJOR
+Search Engine Roundtable reported Sept 28, 2026 that the already-confirmed September 2026 spam update (logged here Sept 25) "showed itself in a big way" starting Friday Sept 25, intensifying Saturday Sept 26, and continuing through Sunday Sept 27 — big ranking drops across many sites, verticals, and countries. SEO consultant Glenn Gabe, independently tracking the rollout, reported particularly large swings in health, finance, and gambling — verticals where trust signals carry more weight — and flagged recurring examples of what he calls "Mt. AI" and "Mt. Programmatic" (AI-generated and programmatic content) among the sites losing visibility. Google has still not officially named which spam behaviors this update targets.
+**Corroboration:** SER's own tracking plus an independent, named practitioner (Glenn Gabe) reporting the same weekend timing and pattern of large drops concentrated in YMYL-adjacent verticals — two independent sources describing the same symptom in the same window, though neither is an official Google statement on scope or targets.
+**What would confirm or kill it:** an official Google statement naming targeted spam behaviors or verticals, or a published Semrush Sensor/Mozcast/Algoroo score confirming the weekend spike, would firm this up; if later data shows the impact was broad-based rather than concentrated in these verticals, the vertical-specific read would not hold up.
+**What this means:** This sharpens the Sept 25 entry from "an update is rolling out, scope unknown" to "YMYL-adjacent verticals with AI-generated/programmatic content are seeing the biggest swings so far." Health, finance, and gambling clients should prioritize a Search Console check now rather than waiting out the full two-week window, and any client leaning on AI-generated or programmatic content in those verticals warrants an early audit.
+Sources: [Search Engine Roundtable](https://www.seroundtable.com/google-september-2026-spam-update-weekend-impact-42174.html)
+Evidence: search-result snippets only — seroundtable.com was blocked by the egress proxy this run; searchengineland.com, searchenginejournal.com, developers.google.com, and gsqi.com (Glenn Gabe's own blog) were also blocked when attempting direct/independent verification.
+
+---
+
 ## 2026-09-28
 
 ### [ANTICIPATED] Google tests shorter AI Overview design on desktop — MAJOR (GEO/AEO)
