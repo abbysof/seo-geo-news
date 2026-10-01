@@ -6,6 +6,22 @@ format and source guidance.
 
 ---
 
+## 2026-10-01
+
+### [CONFIRMED] Google Maps now gates full reviews behind sign-in, widely read as an anti-AI-scraping move — MAJOR (GEO/AEO)
+Multiple users independently spotted on X and LinkedIn starting Sept 30, 2026 that Google Maps now requires signing into a Google account to see all reviews on a Business Profile listing, sort reviews, view additional photos, or leave a review — expanding a narrower sign-in gate for photos/reviews first spotted in February 2026. Google has not published an official explanation or rollout timeline; the prompt itself frames the gate as "unlocking the best of Google Maps," but Search Engine Roundtable and others read it as aimed at preventing AI systems, bots, and third parties from scraping review content.
+**What this means:** This echoes the Cloudflare default AI-crawler block logged here Sept 21 — another major surface locking review data behind authentication just as AI Overviews, AI Mode, and other generative engines increasingly lean on reviews for local/product answers. Local and multi-location clients should expect their review content to become harder for AI answer engines to access and cite over time; worth watching for any Business Profile API or review-schema guidance Google publishes to explain the rationale.
+Sources: [Search Engine Roundtable](https://www.seroundtable.com/google-maps-account-reviews-42186.html)
+Evidence: search-result snippets only — seroundtable.com, relevantaudience.com, and windowsreport.com were all blocked by the egress proxy this run when attempting direct verification.
+
+### [CONFIRMED] Google's AI Contribution Pilot payouts revealed: ~100 publishers, averaging a tenth of a percent of ad revenue — MAJOR (GEO/AEO)
+Search Engine Roundtable reported Sept 30, 2026 that Google's AI Contribution Pilot (logged here Sept 15) is now paying roughly 100 publishers, with payouts averaging about one-tenth of one percent of their advertising revenue. The spread is wide: one early participant reportedly earns over $1 million a year from the program, a later entrant has collected $50,000–$60,000, and several smaller, niche publishers report under $1,000 over several months. Recipients say they still can't see how Google calculates individual payouts.
+**What this means:** This is the first real look at what "being cited in an AI answer" is actually worth in dollars, and for most publishers the answer is: not much yet. Set client expectations accordingly — the program is real and growing, but outside a small number of large, heavily-cited participants, AI Contribution payouts are not a meaningful revenue line next to ads or referral traffic. The opacity of the formula remains the bigger open question for anyone trying to optimize toward it.
+Sources: [Search Engine Roundtable](https://www.seroundtable.com/google-ai-contribution-pilot-01-percent-42188.html)
+Evidence: search-result snippets only — seroundtable.com, ppc.land, and relevantaudience.com were all blocked by the egress proxy this run.
+
+---
+
 ## 2026-09-29
 
 ### [CHATTER] September 2026 spam update hits hard over the weekend, health/finance/gambling among the worst-shaken — MAJOR
