@@ -6,6 +6,22 @@ format and source guidance.
 
 ---
 
+## 2026-10-02
+
+### [CONFIRMED] Federal judge dismisses Penske Media and Chegg's antitrust suits over Google AI Overviews — MAJOR (GEO/AEO)
+US District Judge Amit Mehta (D.D.C.) dismissed the amended antitrust complaints Penske Media and Chegg brought against Google over AI Overviews, in a 41-page opinion filed Sept. 30, 2026 and widely reported Oct. 1. Mehta held that no "formal bargain" was ever struck between publishers and Google — an expectation of referral traffic in exchange for free content is not an enforceable agreement — so the Sherman Act theories (reciprocal dealing, tying, monopoly maintenance/attempted monopolization, plus a California unjust-enrichment claim) all failed. He wrote he was "not unsympathetic" to the harm AI Overviews cause publishers, but said antitrust law isn't a substitute for legislation addressing new technology's economic effects.
+**What this means:** This closes off antitrust litigation as a near-term lever for publishers trying to force Google to share AI Overview traffic or revenue — a court has now said an expectation of referral traffic is not a contract. Clients anxious about AI Overview/AI Mode traffic cannibalization shouldn't expect legal relief soon; the realistic levers stay non-litigation ones — structured data and content signals that improve citation odds, and voluntary programs like the AI Contribution Pilot (logged here Oct 1) — since legislative or negotiated paths are what the judge pointed to instead.
+Sources: [Search Engine Journal](https://searchenginejournal.com/judge-acknowledges-publisher-harm-but-dismisses-google-antitrust-claims/591748), [Press Gazette](https://pressgazette.co.uk/news/penske-ai-overviews-lawsuit-dismissed-because-no-formal-bargain-struck-with-google/), [Forbes](https://www.forbes.com/sites/rickellis/2026/10/01/google-wins-dismissal-of-penske-media-chegg-ai-lawsuits/), [Search Engine Roundtable](https://www.seroundtable.com/google-ai-overview-lawsuit-dismissed-42211.html)
+Evidence: search-result snippets only — searchenginejournal.com, pressgazette.co.uk, www.yahoo.com, relevantaudience.com, www.courtlistener.com, and seroundtable.com were all blocked by the egress proxy this run; corroborated independently across Forbes, Press Gazette, The Information, TokenPost, and Northeast Times snippets, so treated as confirmed despite no direct source load.
+
+### [CONFIRMED] September 2026 spam update's second wave hits Sept 30; full rollout may run to around Oct 8 — MAJOR
+Search Engine Roundtable reported a second wave of the already-confirmed September 2026 spam update (logged here Sept 25 and Sept 29) hit Sept 30, 2026, with site owners describing further large ranking drops and Discover traffic as "extremely volatile" — strong for half a day, then "practically dead." Google hasn't named a new target; this is the same rollout continuing, not a new update. Because Google gave this rollout up to two weeks from its Sept 24, 9:15am PDT start (versus the usual few days for 2026's prior spam updates), the full window could run to roughly Oct 8 if Google uses the whole allowance, though it may finish sooner.
+**What this means:** The two-week allowance was not just a wider margin — Google is actually using it, with a second distinct impact wave five-plus days after launch. Keep holding off on diagnosing client ranking/traffic swings as something else (technical, seasonal) through roughly mid-October; this update is still live.
+Sources: [Search Engine Roundtable](https://www.seroundtable.com/google-september-2026-spam-update-two-42209.html), [ppc.land](https://ppc.land/googles-september-spam-update-gets-a-two-week-rollout-its-longest-yet/)
+Evidence: search-result snippets only — seroundtable.com and ppc.land were both blocked by the egress proxy this run.
+
+---
+
 ## 2026-10-01
 
 ### [CONFIRMED] Google Maps now gates full reviews behind sign-in, widely read as an anti-AI-scraping move — MAJOR (GEO/AEO)
