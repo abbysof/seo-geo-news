@@ -6,6 +6,22 @@ format and source guidance.
 
 ---
 
+## 2026-10-04
+
+### [CONFIRMED] Google's generative-AI content guidance now requires manual fact-checking, extended to meta tags, structured data, and alt text
+Google updated its Search Central "Guidance on generative AI content" page (last-updated Oct 1, 2026) to say it is now "critical to manually factcheck and review all AI-generated content for accuracy and trustworthiness before publishing." The scope explicitly extends beyond body copy to title elements, meta descriptions, structured data, and image alt text. Google's stated rationale: generative models predict a likely sequence of words rather than retrieve facts, so outputs can contain hallucinations. No new penalty was introduced — this formalizes what was previously an implied best practice.
+**What this means:** Any client workflow that lets AI draft or auto-generate titles, meta descriptions, schema markup, or alt text now has written Google guidance behind manually reviewing those fields specifically, not just body copy — useful leverage when pushing back on fully-automated AI content pipelines, even though no new penalty is attached yet.
+Sources: [Search Engine Journal](https://www.searchenginejournal.com/google-fact-check-ai-content-before-publishing/591782/), [ppc.land](https://ppc.land/google-tells-sites-to-manually-factcheck-all-ai-content-before-publishing/), [Google Search Central](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content)
+Evidence: search-result snippets only — developers.google.com (Google's own Search Central page), searchenginejournal.com, and seroundtable.com were all blocked by the egress proxy this run. Dated Oct 1, 2026 but not caught by the prior run; logged today rather than backdated.
+
+### [CONFIRMED] Google's helpful-content page adds a "main content" definition, four quality-rater attributes, and a fake-author warning
+Google updated its "Creating helpful, reliable, people-first content" Search Central page (also last-updated Oct 1, 2026) to define "main content" as whatever part of a page directly serves its purpose — including tools, reviews, and tabbed sections — and to spell out four attributes Search Quality raters use to assess it: effort, originality, talent/skill, and accuracy, with a higher accuracy bar for YMYL topics. The update also added an explicit warning against fabricating creator profiles with AI-generated headshots, invented names, or false credentials.
+**What this means:** This hands content teams a more concrete rater-facing checklist (effort/originality/skill/accuracy) to self-audit against, and a direct signal that fake AI-generated author bios are now called out by name — any client using synthetic author personas for AI-assisted content should drop that practice now rather than wait for a core update to penalize it.
+Sources: [Search Engine Roundtable](https://www.seroundtable.com/google-helpful-content-main-content-and-eot-sa-42218.html), [relevantaudience.com](https://www.relevantaudience.com/seo/google-helpful-content-main-content-effort-originality-fake-authors/), [Google Search Central](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
+Evidence: search-result snippets only — seroundtable.com, relevantaudience.com, and developers.google.com were all blocked by the egress proxy this run.
+
+---
+
 ## 2026-10-02
 
 ### [CONFIRMED] Federal judge dismisses Penske Media and Chegg's antitrust suits over Google AI Overviews — MAJOR (GEO/AEO)
