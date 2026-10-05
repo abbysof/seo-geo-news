@@ -6,6 +6,22 @@ format and source guidance.
 
 ---
 
+## 2026-10-05
+
+### [CONFIRMED] AI Overviews surge from ~26% to 80%+ of branded-query results in late September — MAJOR (GEO/AEO)
+DemandSphere's tracked branded-query data (reported by Search Engine Land Oct 1, 2026) showed AI Overviews appearing on roughly 26-35% of branded queries through most of September, then jumping to 69.21% on Sept 26, peaking at 90.48% on Sept 27, and holding around 80-82% through Sept 28-29 — effectively tripling in days. Ahrefs independently found AI Overviews on 83% of branded searches, and SEO practitioner Chris Long separately tested a batch of major brand names (Reddit, Salesforce, Amazon, Adobe, and others) and found AI Overviews on 93 of 100, typically appearing lower on the results page rather than at the very top. Google has not commented on the specific jump.
+**What this means:** Branded search was previously a relatively AI-Overview-free zone where brands could count on their own site or profile ranking cleanly at top of page; that is no longer reliable. Any client tracking branded-query visibility should check now whether an AI Overview is inserting itself above or alongside their own listing, and whether their site is being cited within it — this is a GEO/AEO surface that largely didn't need defending before late September.
+Sources: [Search Engine Land](https://searchengineland.com/google-ai-overviews-jump-branded-queries-september-492962), [DemandSphere](https://www.demandsphere.com/blog/branded-ai-overviews-september-2026/), [Ahrefs](https://ahrefs.com/blog/ai-overviews-on-branded-searches/), [Search Engine Roundtable](https://www.seroundtable.com/google-ai-overviews-large-brand-names-42195.html)
+Evidence: search-result snippets only — searchengineland.com, demandsphere.com, ahrefs.com, and seroundtable.com were all blocked by the egress proxy this run. Reported Oct 1 but missed by the prior run; logged today rather than backdated.
+
+### [ANTICIPATED] Google again tests AI Overview citation cards stacked at the bottom instead of the right-side rail — MAJOR (GEO/AEO)
+Glenn Gabe spotted, and Search Engine Roundtable reported around Sept 29, 2026, a Google test on desktop that moves AI Overview citations from the right-side panel into a stacked card block beneath the answer, with a "show all" expansion and hoverable inline links. Google has tested variants of bottom-placed citations at least twice before (March 2026 and September 2025); no official confirmation or rollout timeline has been given.
+**What this means:** Citation placement affects which cited sources actually get seen and clicked, so a recurring test like this is worth tracking even though it hasn't shipped broadly before — if bottom-stacked citations become the default, it could change click-through patterns for sites that rely on AI Overview citations for referral traffic. Watch for whether this iteration sticks longer than the prior two.
+Sources: [Search Engine Roundtable](https://www.seroundtable.com/google-ai-overviews-citations-cards-bottom-42177.html)
+Evidence: search-result snippets only — seroundtable.com was blocked by the egress proxy this run.
+
+---
+
 ## 2026-10-04
 
 ### [CONFIRMED] Google's generative-AI content guidance now requires manual fact-checking, extended to meta tags, structured data, and alt text
