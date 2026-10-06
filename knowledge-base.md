@@ -6,6 +6,30 @@ format and source guidance.
 
 ---
 
+## 2026-10-06
+
+### [CONFIRMED] Google explains why 2026 has had four spam updates, says scaled AI content now outranks link spam as its top concern — MAJOR
+At Search Central Live Deep Dive Europe in Barcelona (around Oct 1-2, 2026), Google's Gary Illyes said scaled, low-effort AI content ("AI slop") is now a bigger problem for Google than link spam, and that Google filters roughly 40 billion spam pages a day. He tied this directly to why Google shipped four spam updates in 2026 (March, June, August, September) versus just one in all of 2025, and reiterated that Google is using AI-based systems — including a detector called SAFE (Scaled Abuse Forensics Examiner), reported earlier in 2026 — to identify AI-generated spam faster than human review alone.
+**What this means:** This is Google putting an on-record frame around the acceleration SEOs have already been feeling all year: scaled/programmatic AI content, not links, is the priority target now. Any client leaning on AI-assisted content at volume (programmatic pages, mass "best of" listicles, templated local pages) should treat that as the highest-risk pattern heading into whatever update comes next, not just a generic quality concern.
+Sources: [Search Engine Roundtable](https://www.seroundtable.com/google-search-spam-updates-ai-42226.html), [Search Engine Journal — SAFE background](https://www.searchenginejournal.com/google-has-deployed-a-new-ai-spam-detector-called-safe/590918/)
+Evidence: search-result snippets only — seroundtable.com and searchenginejournal.com were both blocked by the egress proxy this run.
+
+### [CONFIRMED] Lily Ray's updated listicle study: self-ranking "best of" pages increasingly cited but not recommended by AI Overviews — MAJOR (GEO/AEO)
+Lily Ray (Algorythmic/Amsive) published an Oct 4, 2026 update to her running study of AI Overviews on B2B "best [category] software" queries. Her original April-June 2026 run found that when a brand's own self-ranked "best of" listicle got cited in an AI Overview, Google still recommended a competitor instead of the brand itself in 69% of those cases; her September 2026 re-run of the same 100 queries put that share at 83%. A separate figure being reported alongside it says overall citation volume for this type of self-ranking listicle is down 38%, which Ray links to Google's Oct 1-2 generative-AI-content and helpful-content documentation rewrites (logged here Oct 4).
+**What this means:** Publishing a "best X" listicle that ranks your own product first is becoming a less reliable GEO play twice over — Google is both citing them less and, even when it does cite them, naming a competitor as the actual recommendation more often than before. Clients using self-ranking listicles as an AI-citation tactic should check whether this pattern shows up in their own vertical rather than assuming citation alone is doing useful work.
+Sources: [ppc.land](https://ppc.land/google-ai-overviews-cut-self-ranking-listicle-citations-38-lily-ray-finds/), [Lily Ray's Substack](https://lilyraynyc.substack.com/p/is-google-finally-cracking-down-on)
+Evidence: search-result snippets only — ppc.land and lilyraynyc.substack.com were both blocked by the egress proxy this run.
+
+### [CHATTER] Practitioners argue a major Google update is imminent, citing spam-update cadence and rapid-fire documentation rewrites — MAJOR
+In an Oct 4, 2026 essay, Lily Ray argued Google is close to releasing one of its larger ranking updates, pointing to the four 2026 spam updates (vs. one in all of 2025, with shrinking gaps between them), Google's rewritten generative-AI-content and helpful-content guidance in the first days of October (logged here Oct 4), and the Barcelona "AI slop" commentary above. She was explicit that this is informed opinion, not inside knowledge of timing or scope. Search Engine Journal published a similarly-themed piece around the same time arguing the same signals point toward an update before the holiday season, expecting it to target low-quality scaled AI content and AI-answer manipulation.
+**Corroboration:** Two independent, well-known sources (a named practitioner and a trade publication) reading the same underlying signals — spam-update frequency and back-to-back documentation changes — the same way within days of each other. Neither claims advance knowledge of Google's plans, and no official Google statement confirms an update is coming.
+**What would confirm or kill it:** An official Google announcement or a confirmed core/spam update landing in the coming weeks would confirm it; months passing with no new update despite this cadence would undercut the prediction.
+**What this means:** Nothing to action yet, but worth telling clients to have their technical/content audits current now rather than scrambling if an update lands — especially anyone running scaled AI content, programmatic pages, or self-promotional listicles, given where Google's public commentary has been pointing all week.
+Sources: [Lily Ray's Substack](https://lilyraynyc.substack.com/p/prediction-the-next-massive-google), [Search Engine Journal](https://www.searchenginejournal.com/what-to-expect-from-googles-next-search-ranking-update/591928/)
+Evidence: search-result snippets only — lilyraynyc.substack.com and searchenginejournal.com were both blocked by the egress proxy this run.
+
+---
+
 ## 2026-10-05
 
 ### [CONFIRMED] AI Overviews surge from ~26% to 80%+ of branded-query results in late September — MAJOR (GEO/AEO)
