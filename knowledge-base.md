@@ -6,6 +6,24 @@ format and source guidance.
 
 ---
 
+## 2026-10-08
+
+### [CONFIRMED] September 2026 spam update's third wave hits Oct 4-6; rollout may be nearly finished — MAJOR
+Search Engine Roundtable (Barry Schwartz) reported a third wave of impact from the already-confirmed September 2026 spam update (logged here Sept 25, Sept 29, and Oct 2) landing Oct 4-6, 2026. Google's own two-week allowance from the Sept 24, 9:15am PDT start runs through roughly Oct 8 — today. Schwartz said he believes this is the update's final phase and that the rollout could be nearly done, while flagging that one more volatility spike is still possible before it fully wraps. As of this run, Google has not posted a completion notice on its ranking release history page.
+**What this means:** If this is genuinely the last wave, expect ranking/traffic volatility tied to this update to taper off over the coming days rather than persist for the full two-week window Google originally flagged. Hold off only a little longer before separating update-driven swings from technical or seasonal causes in client reporting; revisit once Google's status dashboard marks the rollout complete.
+Sources: [Search Engine Roundtable — phase three](https://www.seroundtable.com/google-september-2026-spam-update-phase-3-42239.html), [Search Engine Roundtable — Oct 7 recap](https://www.seroundtable.com/recap-10-07-2026-42249.html)
+Evidence: search-result snippets only — seroundtable.com was blocked by the egress proxy this run (confirmed via a direct WebFetch attempt, which returned EGRESS_BLOCKED).
+
+### [CHATTER] Healthcare pages reportedly losing review rich results when using review schema — MAJOR
+Search Engine Roundtable reported Oct 7, 2026, citing Schema App's Andrea Badder, that review rich results (star snippets) appear to have stopped showing in Google Search for healthcare web pages using review/aggregateRating structured data. Badder said the pattern shows up across Schema App's healthcare client base, with one drop starting in late May 2026 and a second in early August 2026; attempted fixes (adjusting how aggregateRating is implemented, multi-typing with Product) did not restore the snippets. This follows Google's broader, already-confirmed pruning of healthcare-adjacent rich results (FAQ rich results were cut entirely for the remaining government/health-site exception in May 2026).
+**Corroboration:** One SEO/schema vendor's aggregated observation across its own healthcare client base, relayed by Search Engine Roundtable — not yet independently corroborated by other agencies or sites, and no Google statement addresses it.
+**What would confirm or kill it:** Other practitioners or agencies independently reporting the same healthcare-specific review-snippet loss would confirm it, as would a Google Search Central documentation update narrowing review rich-result eligibility; snippets reappearing for affected healthcare sites with no schema change would undercut it.
+**What this means:** Healthcare clients relying on review star snippets for CTR should check their own SERP appearance now rather than waiting on official confirmation — if the pattern holds, it's another data point (alongside the May FAQ rich-result cut) that Google is narrowing which rich results it's willing to show on YMYL-adjacent health content.
+Sources: [Search Engine Roundtable](https://www.seroundtable.com/google-drops-healthcare-review-snippets-42248.html)
+Evidence: search-result snippets only — seroundtable.com was blocked by the egress proxy this run.
+
+---
+
 ## 2026-10-06
 
 ### [CONFIRMED] Google explains why 2026 has had four spam updates, says scaled AI content now outranks link spam as its top concern — MAJOR
