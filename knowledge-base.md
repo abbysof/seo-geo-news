@@ -6,6 +6,16 @@ format and source guidance.
 
 ---
 
+## 2026-10-09
+
+### [CONFIRMED] September 2026 spam update has officially finished rolling out — 13 days, 16 hours total — MAJOR
+Google's Search Status Dashboard now carries a completion note for the September 2026 spam update, confirming the rollout finished October 8, 2026 at 4:37am ET — roughly 13 days and 16 hours after it began September 24. This is the longest of 2026's four spam updates by far (March: 19.5 hours; June: ~2 days 1 hour; August: ~2 days 16 hours), consistent with Google's own advance warning that this one could take up to two weeks. This confirms and closes out the rollout logged here as ongoing on Sept 25, Sept 29, Oct 2, and Oct 8 (including the "may be nearly finished" read on Oct 8).
+**What this means:** The two-week allowance is now officially spent, so any ranking/traffic volatility from here on should be treated as a new cause, not a continuation of this update — resume normal diagnosis of client swings instead of attributing them to this rollout. Worth a quick before/after Search Console comparison against the Sept 24 start date for any client that saw unexplained movement during the window.
+Sources: [Search Engine Roundtable](https://www.seroundtable.com/google-september-2026-spam-update-done-42235.html), [Search Engine Journal](https://www.searchenginejournal.com/google-september-2026-spam-update-complete/592283/), [Search Engine Watch](https://searchenginewatch.com/google-spam-update-finishes-rolling-out-after-nearly-two-weeks/), [relevantaudience.com](https://www.relevantaudience.com/seo/google-september-2026-spam-update-complete/)
+Evidence: search-result snippets only — seroundtable.com and searchenginejournal.com were both blocked by the egress proxy this run (direct WebFetch attempts returned DNS/connection failures); corroborated independently across four outlets reporting the same Oct 8, 4:37am ET completion time, so treated as confirmed despite no direct source load.
+
+---
+
 ## 2026-10-08
 
 ### [CONFIRMED] September 2026 spam update's third wave hits Oct 4-6; rollout may be nearly finished — MAJOR
