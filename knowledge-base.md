@@ -6,6 +6,30 @@ format and source guidance.
 
 ---
 
+## 2026-10-15
+
+### [CHATTER] Large-scale study suggests Google is serving deliberately altered "poisoned" SERPs to scrapers/rank trackers since mid-September — MAJOR
+Rank-tracking vendor Nozzle published a study (Oct 10, 2026, covering 27.5M SERPs across 49 countries) finding that 8.0% of SERPs returned to automated/scraped requests since Sept 13 were "poisoned" — fewer than half of a keyword's normal result set shown, with the missing sites appearing instead on a separate, differently-ordered SERP — versus a 0.17% baseline before Sept 13. Tracked sites fell out of the top 10 on 58.6% of poisoned SERPs, and AI Overviews appeared far less often on poisoned pages (34.9%) than on clean ones (54.2%). Search Engine Journal published an analysis linking this to Google's broader anti-scraping crackdown logged here through September, and Search Engine Roundtable separately ran "Third-Party Google Rank Tracking Not Fully Working Now." Practitioners including Brodie Clark and Lily Ray amplified the finding, with Ray calling current rank-tracker data too unreliable to trust. Google has not confirmed intentionally altering results for scrapers.
+**Corroboration:** An independent large-scale data study (Nozzle) plus separate pickup/analysis from Search Engine Journal and Search Engine Roundtable, plus multiple named practitioners describing the same pattern independently — but no official Google statement confirms intent, and at least one independent critique argues the 8% figure measures a share of flagged/judged SERPs rather than a general request-error rate.
+**What would confirm or kill it:** An official Google statement about anti-scraping or AI-grounding-defense measures affecting SERP delivery would confirm it; rank-tracker vendors converging on stable, consistent data again — or the discrepancy proving to be tracker-side rather than Google-side — would undercut it.
+**What this means:** Treat any client ranking-tool report, and any AI-Overview-visibility report, with real skepticism right now — a reported drop out of the top 10 or a missing AI Overview citation may be a tracking artifact, not a real ranking or GEO change. Cross-check anything alarming against Search Console/organic traffic before reacting, and flag to clients that third-party rank-tracker and AI-Overview-visibility dashboards may be unreliable until this resolves.
+Sources: [Nozzle research](https://nozzle.io/research/poisoned-google-serps/), [Search Engine Journal — analysis](https://www.searchenginejournal.com/analysis-google-is-poisoning-search-results-for-rank-trackers/592873/), [Search Engine Roundtable](https://www.seroundtable.com/third-party-google-rank-tracking-broken-42272.html), [getlooploop.com weekly roundup](https://www.getlooploop.com/news/poisoned-serps-and-a-finished-spam-update)
+Evidence: search-result snippets only — nozzle.io, searchenginejournal.com, and seroundtable.com were all blocked by the egress proxy this run (direct WebFetch attempts returned DNS resolution failures); corroborated independently across four sources citing the same 8.0%/0.17% figures.
+
+### [CONFIRMED] Google rolls out Gemini 4 Argon model into AI Mode for Pro/Ultra subscribers
+Google added its new Gemini 4 Argon model to the AI Mode model picker for Google AI Pro and Ultra subscribers starting Oct 13-14, 2026, rolling out globally; free-tier AI Mode remains on the default model for now. Argon is also available in the Gemini app, API, and Antigravity for paying users, following a restricted cybersecurity-partner release on Sept 30.
+**What this means:** No action needed for most clients yet since this is paid-tier only, but worth watching whether Argon's answer/citation behavior in AI Mode differs materially from the default model once it reaches a wider sample — a model swap on a generative answer surface is exactly the kind of change that can shift which sites get cited.
+Sources: [Search Engine Journal](https://www.searchenginejournal.com/google-gemini-4-argon-ai-mode/592806/), [9to5Google](https://9to5google.com/2026/10/13/gemini-app-4-argon/)
+Evidence: search-result snippets only — searchenginejournal.com and 9to5google.com were both blocked by the egress proxy this run.
+
+### [CONFIRMED] Google expands AI Mode and AI Overviews ad inventory to prescription pharmaceutical products
+A Google spokesperson confirmed to Adweek (reported mid-October 2026) that standard text/Shopping ads in AI Mode and AI Overviews — already open to general healthcare advertisers since June — now extend to certain prescription pharmaceutical products, in a US-only, English-language test. Ads must run as plain "sponsored" text/Shopping formats; pinning and AI-rewritten-copy formats used elsewhere in AI Mode stay off-limits, likely because those can't carry the disclaimers prescription ads require. One Search Engine Roundtable writer said they had not yet personally spotted a live pharma ad, suggesting the rollout is still narrow.
+**What this means:** Pharma/healthcare clients should start monitoring AI Mode and AI Overview surfaces for sponsored placements now — ad inventory next to or inside generative answers is a new competitive factor in a vertical that already spends heavily on search.
+Sources: [Search Engine Roundtable](https://seroundtable.com/google-ads-drugs-ai-mode-ai-overviews-42277.html), [eMarketer](https://www.emarketer.com/content/google-opens-ai-mode-ai-overviews-drug-ads--expanding-pharma-s-search-reach)
+Evidence: search-result snippets only — seroundtable.com and emarketer.com were both blocked by the egress proxy this run.
+
+---
+
 ## 2026-10-09
 
 ### [CONFIRMED] September 2026 spam update has officially finished rolling out — 13 days, 16 hours total — MAJOR
