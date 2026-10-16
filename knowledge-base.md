@@ -6,6 +6,16 @@ format and source guidance.
 
 ---
 
+## 2026-10-16
+
+### [CONFIRMED] Google rolls out more/higher-placed inline links and tests new citation surfaces across AI Mode and AI Overviews — MAJOR (GEO/AEO)
+Google VP of Product Management for Search Hema Budaraju published a Keyword blog post Oct 15, 2026 announcing changes to how AI Mode and AI Overviews surface sources: inline links now appear higher up in responses more often, following what Google calls "continued and substantial increases" in inline-link volume (no figures given); Google is testing a dedicated section at the top of some responses naming the one or two "official" sites for a task; the "Dive Deeper" section at the end of answers is getting thumbnails and a more clickable redesign; timely-article carousels highlighting user-selected Preferred Sources are expanding to more locations/languages; and AI Mode video results are testing clickable creator names that link to Search profiles. Google published no click-through data and told Search Engine Roundtable it will "introduce additional metrics over time." This follows a similar five-change link-visibility push from the same team on May 6, 2026 (subscription labels, hover previews, creator attribution, suggested next-step angles), so this reads as an iterative continuation rather than a one-off fix.
+**What this means:** This is Google's most direct public response yet to the publisher-traffic-cannibalization complaints running through this log's AI Overviews lawsuit/payout coverage (Oct 1-2) and the branded-query AI Overview surge (Oct 5) — more, higher-placed links are a real if unquantified win for referral traffic from generative answers. Without published metrics, clients can't verify impact from Search Console alone; watch GA4/Search Console referral data from AI surfaces over the next few weeks, and prioritize whatever gets a site into the "Preferred Source" carousel or the new official-pages test, since those two slots look likeliest to carry outsized click share going forward.
+Sources: [Search Engine Journal](https://www.searchenginejournal.com/google-inline-links-higher-ai-search-responses/593089/), [Search Engine Land](https://searchengineland.com/google-updates-ai-mode-and-ai-overview-with-more-links-context-carousels-and-information-on-creators-496242), [Google Keyword blog](https://blog.google/products-and-platforms/products/search/updates-ai-mode-overviews-explore-web/), [9to5Google](https://9to5google.com/2026/10/15/google-ai-mode-overviews-links/)
+Evidence: search-result snippets only — blog.google, searchengineland.com, searchenginejournal.com, and 9to5google.com were all blocked by the egress proxy this run (WebFetch returned DNS resolution failures); corroborated independently across these four outlets plus secondary pickup (NewsBytesApp, TechWyse) citing the same Oct 15 Keyword post by Hema Budaraju.
+
+---
+
 ## 2026-10-15
 
 ### [CHATTER] Large-scale study suggests Google is serving deliberately altered "poisoned" SERPs to scrapers/rank trackers since mid-September — MAJOR
