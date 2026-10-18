@@ -6,6 +6,18 @@ format and source guidance.
 
 ---
 
+## 2026-10-18
+
+### [CHATTER] Ranking volatility and SEO chatter spike Oct 15-16, cause disputed — continues the poisoned-tracker story
+Search Engine Roundtable (Barry Schwartz) reported Oct 16, 2026 a spike in both ranking volatility and forum/SEO chatter over the prior 24 hours, tied to reports of ranking changes, referral-traffic shifts, and general disruption in Google Search results, alongside an unrelated note that manual actions appear to be rising. Community reaction was mixed: some site owners reported heavy traffic drops (one described roughly a 50% drop "since yesterday"), while others attributed what they were seeing to stale Google News tab results or bot traffic rather than a real ranking shift. A same-day Roundtable video recap was titled around Google "poisoning" tracking tools, continuing the theme from this log's Oct 15 poisoned-SERP entry. Schwartz was explicit that he does not believe this is tied to a core update, and separately noted that overall chatter volume has been lower lately now that tools are recalibrating after Google removed the 100-results-per-page view. Google has made no statement.
+**Corroboration:** A volatility-tracker spike reported alongside forum/community chatter (the pairing CLAUDE.md treats as meeting the corroboration bar) — but from a single aggregating source (Search Engine Roundtable) with internally mixed/conflicting explanations (real ranking disruption vs. News-tab staleness vs. bot traffic), and the reporter's own stated skepticism that this reflects a core update.
+**What would confirm or kill it:** Multiple independent practitioners or agencies reporting the same symptom, or Google confirming a core/spam update, would confirm it; the spike resolving within days with no official update, as prior similar blips have, would undercut it.
+**What this means:** Not solid enough to act on yet — hold off telling clients anything changed, but keep an eye on whether this resolves quickly (likely noise/tool recalibration, consistent with the ongoing rank-tracker reliability problems logged Oct 15) or compounds into something Google-confirmed, especially given multiple practitioners (Lily Ray, Glenn Gabe, Marie Haynes) have been predicting a larger update is close.
+Sources: [Search Engine Roundtable](https://www.seroundtable.com/google-search-ranking-volatility-chatter-42317.html)
+Evidence: search-result snippets only — seroundtable.com (both www and bare hostname) and status.search.google.com were blocked by the egress proxy this run (DNS resolution failures); could not independently corroborate beyond the single Roundtable source and its own search-snippet excerpts.
+
+---
+
 ## 2026-10-16
 
 ### [CONFIRMED] Google rolls out more/higher-placed inline links and tests new citation surfaces across AI Mode and AI Overviews — MAJOR (GEO/AEO)
