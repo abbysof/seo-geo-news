@@ -6,6 +6,26 @@ format and source guidance.
 
 ---
 
+## 2026-10-23
+
+### [CHATTER] Ranking volatility and "is an update rolling out?" chatter intensifies Oct 20-21 — continues the Oct 15-16 pattern — MAJOR
+Barry Schwartz (Search Engine Roundtable) reported Oct 21, 2026 that Google Search ranking volatility and SEO-industry chatter both spiked again over the prior 24 hours (Oct 20-21), citing WebmasterWorld forum posts describing Search and Discover traffic swings — one site owner reported clicks down sharply while rankings and impressions looked stable — plus a heavy volume of general chatter. Combining the volatility signal with the chatter, Schwartz said he now believes an unconfirmed Google ranking update may be underway, while flagging that third-party rank trackers remain unreliable, continuing the broken-rank-tracking/poisoned-SERP problem logged here Oct 15. Google's Search Status Dashboard still shows nothing new — the last confirmed entry remains the September 2026 spam update, completed Oct 8. Other coverage (Search Engine Watch, syndicating Search Engine Journal) pushed back, arguing the forum complaints look more like Discover-traffic drops, stale Google News tab results, and Search Console delays than a single confirmed ranking update.
+**Corroboration:** Same shape as the Oct 16 entry already logged here — a volatility spike paired with forum/community chatter — but it still funnels through a single aggregating source (Schwartz/Search Engine Roundtable, drawing on WebmasterWorld) with no independent volatility-tracker data obtainable this run (Semrush Sensor, Mozcast, and Algoroo were not reachable), and explicit skeptical pushback from other outlets that this may not reflect a real algorithm change.
+**What would confirm or kill it:** Google confirming a core/spam update, or multiple independent agencies/trackers converging on the same symptom with the rank-tracker-reliability problem controlled for, would confirm it; the volatility resolving within days with no official update — as the Oct 16 spike appears to have done — would undercut it.
+**What this means:** Hold off telling clients anything has changed — this reads as a continuation of the same Oct 15/16 pattern (chatter outrunning confirmation, amplified by broken third-party rank tracking) rather than a new signal. Keep watching for either an official Google confirmation or genuinely independent corroboration, not just more outlets citing Schwartz's own aggregation, before treating this as real.
+Sources: [Search Engine Roundtable](https://www.seroundtable.com/google-search-ranking-volatility-42347.html), [Search Engine Roundtable — Oct 21 recap](https://www.seroundtable.com/recap-10-21-2026-42348.html), [Search Engine Watch](https://searchenginewatch.com/google-october-2026-update-rumors/)
+Evidence: search-result snippets only — seroundtable.com, searchenginewatch.com, panstag.com, and businessdaduk.com were all blocked by the egress proxy this run (WebFetch returned DNS resolution failures); could not independently check Semrush Sensor, Mozcast, or Algoroo this run.
+
+### [CHATTER] Google appears to drop the "AI Overview" label from some AI Overviews on desktop — MAJOR (GEO/AEO)
+Glenn Gabe spotted, and Barry Schwartz reported via Search Engine Roundtable around Oct 19-20, 2026, that some AI Overviews on desktop — seen on show/movie queries — are displaying without the "AI Overview" label, while the mobile version of the same results still carries it. Schwartz said he suspects a bug (Google has had similar missing-label bugs before, including one on AI-generated snippets that Google's Rajan Patel confirmed and fixed) and said he had reached out to Google; no response was reported as of this writing. One commenter noted that if the label disappears more broadly, it would make AI-Overview-vs-non-AI-Overview CTR comparisons even harder to trust, compounding the rank-tracker-reliability problems already logged here Oct 15.
+**Corroboration:** A single spotter (Glenn Gabe) relayed through one outlet (Search Engine Roundtable) — not yet independently corroborated by other practitioners, and Schwartz's own working theory is "bug," not a deliberate change.
+**What would confirm or kill it:** Google confirming (as it has before) that this is a bug and fixing it would effectively kill it as a strategic signal; the unlabeled presentation persisting, expanding beyond show/movie queries, or Google confirming it as an intentional design change would make it a real one to track.
+**What this means:** Nothing actionable yet given the single-source corroboration and the bug-fix precedent, but worth a bookmark: an AI Overview that doesn't announce itself as one changes how a user perceives the answer's reliability, and makes CTR/visibility measurement even messier on a surface that's already hard to measure. Watch whether this spreads past the show/movie vertical or resolves quickly.
+Sources: [Search Engine Roundtable](https://www.seroundtable.com/google-ai-overviews-label-missing-42337.html)
+Evidence: search-result snippets only — seroundtable.com was blocked by the egress proxy this run.
+
+---
+
 ## 2026-10-18
 
 ### [CHATTER] Ranking volatility and SEO chatter spike Oct 15-16, cause disputed — continues the poisoned-tracker story
