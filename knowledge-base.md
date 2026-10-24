@@ -6,6 +6,18 @@ format and source guidance.
 
 ---
 
+## 2026-10-24
+
+### [CHATTER] Google tests AI-generated summary snippets inside AI Overview citation cards — MAJOR (GEO/AEO)
+Brodie Clark spotted, and Search Engine Roundtable reported Oct 23, 2026, that the citation cards shown beside/below some AI Overviews now display AI-written summary text instead of a snippet excerpted directly from the cited page. Clark said the wording appears to be generated based on whatever Google judges most relevant to the query, and that he saw the behavior on some but not all of his own test queries. Google has not commented, and the report treats this as a test spotted in the wild rather than a confirmed rollout.
+**Corroboration:** A single practitioner (Brodie Clark) relayed through a single aggregating outlet (Search Engine Roundtable) — not yet independently corroborated by other practitioners, and inconsistent even across the spotter's own test queries.
+**What would confirm or kill it:** Other practitioners independently reporting the same AI-generated-summary behavior in citation cards, or Google confirming it as an intentional test, would confirm it; the cards reverting to direct page excerpts, or the pattern not reproducing, would undercut it.
+**What this means:** Nothing actionable yet given the single-source corroboration, but worth a bookmark alongside the Oct 15 inline-links/citation-redesign push logged here — if this becomes the default, the text a user sees next to a citation may be Google's own gloss on the content rather than the publisher's actual wording, which could misrepresent a site or flatten differentiation between cited sources. Watch whether it spreads beyond isolated test queries or firms up into a documented change.
+Sources: [Search Engine Roundtable](https://www.seroundtable.com/google-ai-overview-citation-ai-summaries-42361.html)
+Evidence: search-result snippets only — seroundtable.com was blocked by the egress proxy this run (WebFetch returned a DNS resolution failure).
+
+---
+
 ## 2026-10-23
 
 ### [CHATTER] Ranking volatility and "is an update rolling out?" chatter intensifies Oct 20-21 — continues the Oct 15-16 pattern — MAJOR
