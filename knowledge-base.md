@@ -6,6 +6,18 @@ format and source guidance.
 
 ---
 
+## 2026-10-26
+
+### [CHATTER] Ranking volatility spikes again Oct 24, extending the Oct 15-21 pattern — MAJOR
+Barry Schwartz (Search Engine Roundtable) reported Oct 25, 2026 that another round of significant ranking volatility, as captured by multiple third-party tracking tools, hit over Oct 24, accompanied by heavy SEO-industry chatter about ranking and traffic changes; Schwartz said he believes a Google Search ranking adjustment landed Friday (Oct 23) into Saturday (Oct 24). This extends the same unconfirmed-update pattern logged here Oct 15, Oct 16, Oct 18, and Oct 20-21/23 — now a fourth-plus recurrence with still no Google confirmation on its Search Status Dashboard (last confirmed entry remains the September 2026 spam update, completed Oct 8). A concurrent WebmasterWorld thread ("October 2026 Google Observations") showed a genuinely mixed picture this round: some site owners reported sharp traffic drops, but one reviewer checking over 100 Search Console accounts found the group down only about 0.5-1% overall, and others reported gains, with one site up over 35%.
+**Corroboration:** Same shape as the prior entries — a volatility-tracker spike paired with forum/community chatter — again funneling through a single aggregating source (Schwartz/Search Engine Roundtable). The WebmasterWorld sample itself is mixed (some drops, some flat, some gains), which weakens rather than strengthens the signal this round.
+**What would confirm or kill it:** An official Google confirmation, or a broad majority of independently-checked Search Console accounts showing the same directional move, would confirm it; continued mixed/small-magnitude results across accounts (as this round's WebmasterWorld sample already suggests) would undercut it.
+**What this means:** Hold off telling clients anything has changed — this is now the fourth-plus round of the same chatter-outpacing-confirmation pattern since mid-October, and the broadest available sample (100+ accounts) suggests the aggregate effect, if real, is small. Keep telling clients to check their own Search Console data rather than react to rank-tracker or forum alarm, especially given the still-unresolved poisoned-SERP/rank-tracker-reliability problem logged here Oct 15.
+Sources: [Search Engine Roundtable](https://www.seroundtable.com/google-search-ranking-volatility-heated-42373.html), [WebmasterWorld — October 2026 Google Observations thread](https://www.webmasterworld.com/google/5134184.htm)
+Evidence: search-result snippets only — seroundtable.com and webmasterworld.com were both blocked by the egress proxy this run (WebFetch returned DNS resolution failures).
+
+---
+
 ## 2026-10-24
 
 ### [CHATTER] Google tests AI-generated summary snippets inside AI Overview citation cards — MAJOR (GEO/AEO)
