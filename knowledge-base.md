@@ -6,6 +6,18 @@ format and source guidance.
 
 ---
 
+## 2026-10-29
+
+### [CHATTER] Ranking volatility spikes again Oct 27, with signs it may extend into Oct 28-29 — continues the Oct 15-26 pattern — MAJOR
+Barry Schwartz (Search Engine Roundtable) reported Oct 27, 2026 that he was "seeing a larger spike in volatility, along with an increase in SEO community chatter" than the Oct 24 round logged here, again floating an unconfirmed Google Search ranking update. Secondary outlets (techjuice.pk, globitalmarketing.com, panstag.com, newztodays.com, seovendor.co) picked up the same report, largely syndicating Schwartz's own aggregation rather than adding independent data. A separate piece (Outrank) flagged "possible" ranking volatility continuing into Oct 28-29, though its publication year could not be confirmed this run. This is now at least a sixth recurrence of the same unconfirmed-update pattern logged here Oct 15, 16, 18, 20-21, 23, and 24/26, still with no Google confirmation on its Search Status Dashboard (last confirmed entry remains the September 2026 spam update, completed Oct 8).
+**Corroboration:** Same shape as every prior round in this pattern — a volatility claim plus "increased chatter" — but still funneling through a single originating source (Schwartz/Search Engine Roundtable); the outlets citing it are syndication, not independent reporting, and no independent tracker figure (Semrush Sensor, Mozcast, Algoroo) for Oct 27 specifically could be obtained this run. Does not clear the bar for independent corroboration any more than the five prior rounds did.
+**What would confirm or kill it:** An official Google confirmation, or genuinely independent practitioners/trackers (not just outlets citing Schwartz) converging on the same symptom, would confirm it; this resolving within days with no official update — as every prior round since Oct 15 has — would continue to undercut it as a distinct signal.
+**What this means:** No change in guidance — keep telling clients to check their own Search Console data rather than react to rank-tracker or forum alarm. This is the same chatter-outpacing-confirmation cycle recurring for the sixth-plus time in two weeks; treat the recurrence itself (rather than any single round) as the signal worth watching, in case it eventually resolves into an official update.
+Sources: [Search Engine Roundtable — Oct 27 recap](https://www.seroundtable.com/recap-10-27-2026-42380.html), [globitalmarketing.com](https://www.globitalmarketing.com/industry-updates/google-search-rankings-turn-volatile-again-on-october-27/), [Outrank — possible Oct 28-29 volatility](https://www.outrank.co.uk/?p=36716)
+Evidence: search-result snippets only — seroundtable.com, globitalmarketing.com, and outrank.co.uk were all blocked by the egress proxy this run (WebFetch returned ENOTFOUND/DNS resolution failures); could not independently verify Semrush Sensor, Mozcast, or Algoroo data for Oct 27, and could not confirm the Outrank piece's publication year.
+
+---
+
 ## 2026-10-26
 
 ### [CHATTER] Ranking volatility spikes again Oct 24, extending the Oct 15-21 pattern — MAJOR
