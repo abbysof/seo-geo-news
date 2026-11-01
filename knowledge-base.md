@@ -6,6 +6,18 @@ format and source guidance.
 
 ---
 
+## 2026-11-01
+
+### [CHATTER] Google may be bringing back the num=100 results parameter, nearly a year after killing it — single-spotter, unreplicated
+Search Engine Roundtable (Barry Schwartz) reported Oct 29, 2026 that Brodie Clark spotted Google showing 99 organic results after following a link out from a knowledge panel, raising the possibility Google is testing a restoration of the "&num=100" results-per-page parameter it effectively killed in September 2025 — the same change that broke most third-party rank-tracking tools and has run as a background theme in the poisoned-SERP/rank-tracker-reliability storyline logged in this file since Oct 15, 2026. Schwartz said he could not reproduce the behavior himself across multiple browsers, and Google has made no statement.
+**Corroboration:** A single spotter (Brodie Clark), relayed through one outlet, not reproduced even by the reporting journalist — well below the bar for a confirmed signal, and weaker than most chatter logged here.
+**What would confirm or kill it:** Other practitioners independently reproducing 90+ result pages, or Google confirming a deliberate restoration, would confirm it; failure to reproduce further, or a Google denial, would kill it.
+**What this means:** Nothing actionable yet, but if this holds up it would partially reverse the rank-tracker-reliability problem that has undercut confidence in every volatility-chatter round logged here since mid-October — worth a second look if other trackers start reporting fuller result sets, since that would make rank-tracker data (and thus future volatility chatter) more trustworthy again.
+Sources: [Search Engine Roundtable](https://www.seroundtable.com/google-search-100-search-results-parameter-back-42423.html)
+Evidence: search-result snippets only — seroundtable.com was blocked by the egress proxy this run (WebFetch returned ENOTFOUND/DNS resolution failure).
+
+---
+
 ## 2026-10-29
 
 ### [CHATTER] Ranking volatility spikes again Oct 27, with signs it may extend into Oct 28-29 — continues the Oct 15-26 pattern — MAJOR
