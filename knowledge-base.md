@@ -6,6 +6,16 @@ format and source guidance.
 
 ---
 
+## 2026-11-03
+
+### [CONFIRMED] OpenAI, Google, Microsoft, and Anthropic agree to honor a shared robots.txt AI-training opt-out token — MAJOR
+First reported Oct 30, 2026: the four companies said they will honor a single new robots.txt policy token (reported as `__usage_ai-training`) that lets a site opt out of AI-training use of its content with one entry, instead of maintaining separate per-company bot rules (GPTBot, Google-Extended, ClaudeBot, etc.). The signal comes from an IETF Internet-Draft, "Machine-Readable Training Preference Signal" (draft-kelley-aipref-training-preference-signal-00), authored by Anthropic's Kevin Kelley under the IETF AI Preferences working group; the live draft itself confirms the token and working-group effort exist. The token governs training use only — it does not touch crawling, search indexing, or AI Overviews/AI-answer quoting, which stay controlled by existing signals (ordinary robots.txt crawl rules, Google-Extended, and Google's separate Search Console setting for AI features in Search). Rollout timing differs by company: Anthropic says it has already begun honoring it, OpenAI says "coming months," Microsoft targets Feb 1, 2027, and Google targets sometime in 2027; Google says a site using the shared token without separately naming Google-Extended will be treated as disallowing Google-Extended too. Reported working-group participants also include Meta, Cloudflare, Common Crawl, News Corp, the Financial Times, the BBC, EFF, and Creative Commons.
+**What this means:** This is the first cross-lab standardization of AI-training opt-out signaling, kept separate from search/crawl/citation controls — worth getting ahead of for clients who want to block AI-training use of their content without affecting search visibility or AI Overview/AI Mode citations. Because enforcement phases in through 2027 and existing per-bot rules still matter until each company flips the switch, don't tell clients to replace current crawler directives yet; treat this as a signal to prepare a combined robots.txt entry, not to act immediately.
+Sources: [AI Weekly](https://aiweekly.co/alerts/openai-google-microsoft-anthropic-back-one-ai-opt-out-token), [IETF Internet-Draft: Training Preference Signal](https://www.ietf.org/archive/id/draft-kelley-aipref-training-preference-signal-00.html)
+Evidence: search-result snippets only — the original report (reportedly The Verge) could not be located or fetched; relied on WebSearch snippet text from secondary aggregators plus the live IETF draft text itself, not a full-page fetch of any of them. seroundtable.com, searchengineland.com, status.search.google.com, and mariehaynes.com were all blocked by the egress proxy this run (WebFetch returned ENOTFOUND/DNS resolution failures).
+
+---
+
 ## 2026-11-01
 
 ### [CHATTER] Google may be bringing back the num=100 results parameter, nearly a year after killing it — single-spotter, unreplicated
