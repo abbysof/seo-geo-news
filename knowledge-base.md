@@ -6,6 +6,18 @@ format and source guidance.
 
 ---
 
+## 2026-11-04
+
+### [CHATTER] Google Search Console performance report shows anomalous click spikes for some sites, cause unconfirmed
+Search Engine Land and Search Engine Roundtable (Barry Schwartz) reported Nov 3, 2026 that some site owners are seeing unexplained spikes in clicks within Search Console's Performance report — affecting some properties but not others, and in some cases visible via the Search Console API but not the web UI for the same property. Local-SEO practitioner Joy Hawkins said she's fairly confident the spike reflects bot traffic rather than real visitor clicks, based on the click-through-rate pattern; Search Engine Land asked Google whether this is a reporting bug and had received no answer as of publication.
+**Corroboration:** Two independent outlets (Search Engine Land, Search Engine Roundtable) covering the same symptom, plus an independent practitioner (Joy Hawkins) offering a specific explanatory theory — but no official Google confirmation either way yet.
+**What would confirm or kill it:** Google confirming a logging/reporting bug — as it has for a similar Search Console anomaly before (the Aug 2026 impressions-logging error logged in this file) — would settle it as a tooling artifact; Google saying the clicks are genuine would make it a real (if unexplained) traffic event instead.
+**What this means:** If a client reports a sudden, unexplained jump in Search Console clicks, don't credit it to a ranking or visibility win yet — cross-check against GA4/server logs for bot-traffic signatures first, the same caution warranted by the Aug 2026 Search Console logging-bug entry already in this log.
+Sources: [Search Engine Land](https://searchengineland.com/google-search-console-is-showing-some-huge-spikes-in-clicks-in-the-performance-report-500474), [Search Engine Roundtable](https://www.seroundtable.com/google-performance-reports-spike-clicks-42448.html)
+Evidence: search-result snippets only — searchengineland.com and seroundtable.com were both blocked by the egress proxy this run (WebFetch returned ENOTFOUND/DNS resolution failures).
+
+---
+
 ## 2026-11-03
 
 ### [CONFIRMED] OpenAI, Google, Microsoft, and Anthropic agree to honor a shared robots.txt AI-training opt-out token — MAJOR
