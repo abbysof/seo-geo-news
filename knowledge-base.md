@@ -6,6 +6,26 @@ format and source guidance.
 
 ---
 
+## 2026-11-07
+
+### [CHATTER] Google AI Mode shown linking only to Google Flights on flight queries, raising self-preferencing questions — MAJOR (GEO/AEO)
+Search Engine Roundtable (Barry Schwartz) reported Nov 3, 2026 that over the preceding weekend he tested Google AI Mode for flight-search queries across multiple domestic and international destinations, and every response's only outbound link went to Google Flights rather than to airlines, OTAs, or other travel sites. A second practitioner, Natzir, had independently posted the same pattern on X the week before. Google has not commented. This sits against an active EU antitrust backdrop: the European Commission fined Alphabet roughly €460M (completed March 2025) for self-preferencing Google's own travel listings in classic search, and in December 2025 opened a separate investigation into whether AI Overviews and AI Mode engage in similar self-preferencing.
+**Corroboration:** Two independent practitioners (Schwartz, Natzir) reporting the same pattern across varied queries — more than a single sighting, but still informal spot-checks/screenshots rather than a systematic study, and not yet picked up by other outlets.
+**What would confirm or kill it:** Other practitioners reproducing the Google-Flights-only pattern at scale, or EU/other regulators citing it in the open AI Mode antitrust probe, would confirm it as a real (and possibly actionable) pattern; the links diversifying to third-party travel sites on retest, or Google attributing it to a template/rendering bug, would undercut it.
+**What this means:** Worth flagging to any client in travel or any vertical with a dominant Google-owned alternative (Flights, Hotels, Shopping, YouTube) — if AI Mode is structurally routing clicks to Google's own properties on certain query types, that's a GEO/AEO risk no amount of on-page optimization fixes, and it dovetails with the open EU self-preferencing probe into AI Mode. Watch for broader corroboration or a regulatory response before advising clients to do anything differently.
+Sources: [Search Engine Roundtable](https://seroundtable.com/google-ai-mode-links-google-flights-42428.html)
+Evidence: search-result snippets only — seroundtable.com was blocked by the egress proxy this run (WebFetch returned ENOTFOUND/DNS resolution failure).
+
+### [CHATTER] Google reportedly tests removing the AI Mode button from the search bar for some users — single-sighting, unreplicated
+Reports dated around Nov 3-4, 2026 (via Search Engine Roundtable and secondary outlets including Business Today and PPC Land) describe a user (reported as Len Raleigh) noticing Google had removed the AI Mode shortcut from the search bar in Incognito mode in Chrome. Search Engine Roundtable's own author said he could not replicate the change himself. This is distinct from an earlier, separately-reported test replacing the signed-out homepage's classic Search button with AI-first shortcuts (the AI Mode icon inside the search box stays in that test). Google has not commented on either test, and in the same week expanded AI Mode ads to 10 additional countries — which cuts against the idea that Google is pulling back from AI Mode generally.
+**Corroboration:** A single spotter, relayed through one outlet, not reproduced even by the reporting journalist — weak, on par with or below most single-spotter chatter logged in this file.
+**What would confirm or kill it:** Other users/practitioners independently reproducing the missing AI Mode button, or Google confirming an intentional test or rollback, would confirm it; continued failure to reproduce, or the icon reappearing, would kill it.
+**What this means:** Nothing actionable yet. Worth a bookmark only insofar as it's a UI-level signal about how committed Google currently is to AI Mode's placement — watch whether this resolves into a documented test or evaporates like most single-sighting UI chatter.
+Sources: [Search Engine Roundtable](https://seroundtable.com/google-removing-ai-mode-42436.html)
+Evidence: search-result snippets only — seroundtable.com was blocked by the egress proxy this run (WebFetch returned ENOTFOUND/DNS resolution failure); the primary spotter's own post could not be located or verified independently.
+
+---
+
 ## 2026-11-04
 
 ### [CHATTER] Google Search Console performance report shows anomalous click spikes for some sites, cause unconfirmed
