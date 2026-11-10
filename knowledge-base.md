@@ -6,6 +6,18 @@ format and source guidance.
 
 ---
 
+## 2026-11-10
+
+### [CHATTER] Google ranking volatility picks back up around Nov 8-9, muddied by an apparent Search Console reporting glitch — MAJOR
+Barry Schwartz (Search Engine Roundtable) reported Nov 9, 2026 that after roughly two calm weeks, ranking volatility appeared to pick up over the preceding ~24 hours, framed as "Update November 8th/9th?" — the latest recurrence of the unconfirmed-update pattern logged repeatedly in this file since mid-October (entries Oct 15 through Oct 29), with Google still not confirming anything newer than the September 2026 spam update (completed Oct 8) on its Search Status Dashboard. Article comments and a WebmasterWorld thread reportedly picked up, including one commenter describing their "worst weekend traffic in 6 years," and Semrush Sensor was reported to show elevated movement. A secondary aggregator, Searchprex, separately described "intense" early-November volatility with its own monitors reaching "Very High"/"Extreme" levels. The same Schwartz report also flagged that Search Console's Performance report is reportedly showing inaccurate data for many sites, with Google not commenting — an apparent continuation/broadening of the anomalous click-spike issue already logged here on 2026-11-04 — which could make traffic-based readings of this round unreliable.
+**Corroboration:** Same shape as every prior round in this long-running pattern — a volatility claim plus "increased chatter" — still funneling primarily through a single originating source (Schwartz/SER), now joined by one secondary aggregator (Searchprex) whose independence from that same reporting couldn't be confirmed this run. No independent tracker data (Mozcast, Algoroo, Advanced Web Ranking) and no Reddit/r-SEO/r-TechSEO threads could be found to corroborate. Does not clear the bar for independent corroboration any more than the prior rounds logged here did.
+**What would confirm or kill it:** An official Google confirmation, or genuinely independent trackers/practitioners (not just outlets citing Schwartz) converging on the same symptom, would confirm it; this resolving within days with no official update — as every prior round since Oct 15 has — would continue to undercut it.
+**What this means:** No change in guidance — keep telling clients to check their own Search Console data first, with the added caveat this round that Search Console's own reporting may itself be unreliable, rather than react to rank-tracker or forum alarm. Treat this as the latest recurrence of an ongoing, still-unconfirmed pattern rather than a new signal on its own.
+Sources: [Search Engine Roundtable](https://www.seroundtable.com/google-search-ranking-volatility-november-9th-42486.html), [Search Engine Roundtable — Nov 9 recap](https://www.seroundtable.com/recap-11-09-2026-42485.html), [Searchprex](https://www.searchprex.com/resources/news/google-november-2026-search-ranking-volatility)
+Evidence: search-result snippets only — seroundtable.com, webmasterworld.com, and searchprex.com were all blocked by the egress proxy this run (WebFetch returned ENOTFOUND/DNS resolution failures); could not independently verify Semrush Sensor, Mozcast, or Algoroo data for Nov 8-9.
+
+---
+
 ## 2026-11-07
 
 ### [CHATTER] Google AI Mode shown linking only to Google Flights on flight queries, raising self-preferencing questions — MAJOR (GEO/AEO)
