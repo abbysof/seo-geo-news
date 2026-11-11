@@ -6,6 +6,17 @@ format and source guidance.
 
 ---
 
+## 2026-11-11
+
+### [CONFIRMED] Google November 2026 core update rolling out globally — MAJOR
+Google began rolling out the November 2026 core update on Nov 10, 2026 (reported start ~1:07pm ET / 10:06am PT), per the Google Search Status Dashboard. It's the third core update of 2026, following March and May. Google describes it as a regular update applying worldwide and to all languages, with no specific target called out; the rollout may take up to two weeks to complete (into roughly Nov 24). This confirms the ranking-volatility chatter logged here yesterday (2026-11-10, "picks back up around Nov 8-9") as the lead-up to a real, now-official update — the long unconfirmed-volatility pattern tracked in this log since mid-October has resolved into a shipped core update rather than fizzling out as the prior rounds did.
+Reported independently by Search Engine Journal (Matt Southern), Search Engine Land, Search Engine Watch, and Search Engine Roundtable (Barry Schwartz, who also posted the confirmation directly on X) — well above the single-source bar that kept the Oct 15–Nov 10 volatility rounds in CHATTER territory.
+**What this means:** Tell clients not to react to mid-rollout ranking swings or make defensive changes before the two-week window closes — per Google's own guidance, wait at least a week after completion before drawing conclusions, using the week before Nov 10 as the pre-update baseline. The timing is the real client-facing risk: the rollout window runs right up against Black Friday/Cyber Monday, so e-commerce clients could see ranking volatility overlapping their highest-stakes week: build that into any pre-holiday monitoring plan now rather than waiting for completion.
+Sources: [Search Engine Journal](https://www.searchenginejournal.com/google-november-2026-core-update/596614/), [Search Engine Roundtable](https://www.seroundtable.com/google-november-2026-core-update-42504.html), [Search Engine Land](https://searchengineland.com/google-november-2026-core-update-rolling-out-now-501348), [Search Engine Watch](https://searchenginewatch.com/google-november-2026-core-update/)
+Evidence: search-result snippets only — searchenginejournal.com, seroundtable.com, searchengineland.com, searchenginewatch.com, and x.com were all blocked by the egress proxy this run (WebFetch returned ENOTFOUND/getaddrinfo failures); corroboration rests on independent-outlet agreement in search snippets, not a full-page fetch of any one of them.
+
+---
+
 ## 2026-11-10
 
 ### [CHATTER] Google ranking volatility picks back up around Nov 8-9, muddied by an apparent Search Console reporting glitch — MAJOR
