@@ -6,6 +6,29 @@ format and source guidance.
 
 ---
 
+## 2026-11-14
+
+### [CONFIRMED] OpenAI launches "Businesses in ChatGPT" — Business Hub, verified profiles, Business Agents, and brand-mention analytics — MAJOR (AEO)
+OpenAI announced a beta on Nov 10-11, 2026 letting companies claim and verify a profile inside ChatGPT (identity verification via Persona, earning a blue checkmark; Shopify merchants can link their store to speed this up), then deploy "Business Agents" — initially limited to eligible US eCommerce and online-service businesses — that can hold branded conversations inside ChatGPT, separate from ChatGPT's own organic answers, and can also be bought as a sponsored placement via ChatGPT Ads. Alongside this, a Business Hub "Insights" dashboard (beta) gives businesses aggregate, privacy-thresholded analytics: mention counts, profile views, website clicks, a mentions trend chart, and the top five topics driving discovery, viewable over 7-day and 28-day windows. An OpenAI spokesperson said "just naming the brand doesn't count" as a mention for an online business — a mention counts specifically when ChatGPT references the business's website. Free at launch; OpenAI says it plans to expand to more countries/categories and has not said how long mentions are tracked or what drives the topic list.
+Reported independently and consistently by Reuters (via FourWeekMBA), Digiday, PPC Land, Marketing Interactive, IT Brief (UK/AU), Digit, AIBusiness, techeconomy.ng, and others — broad, consistent trade-press corroboration of a company-announced feature, though no primary OpenAI blog post could be located in search snippets.
+**What this means:** This is the first first-party measurement surface answering the question GEO/AEO consultants have only been able to estimate indirectly — "does ChatGPT mention this client, and for what." For eligible US eCommerce/service clients, claiming and verifying the Business Hub profile and monitoring Insights should become a standard GEO deliverable now, before competitors claim theirs first; it also introduces a new paid-placement surface (ChatGPT Ads via Business Agents) that may become a budget line analogous to paid search. Note OpenAI's own definition of "mention" (website reference, not just name-drop) when setting client expectations for what the dashboard will and won't show.
+Sources: [IT Brief](https://itbrief.co.uk/story/openai-launches-chatgpt-business-hub-for-companies), [PPC Land](https://ppc.land/businesses-gain-chatgpt-click-and-mention-counts-in-openais-business-hub/), [Digiday](https://digiday.com/marketing/openais-new-business-agents-give-brands-a-free-way-into-the-conversation/), [AIBusiness](https://aibusiness.com/generative-ai/openai-s-businesses-in-chatgpt-targets-enterprise-trust)
+Evidence: sourced from WebSearch snippets of trade-press coverage (including a Reuters citation relayed via FourWeekMBA) — WebFetch failed with DNS/egress errors on every domain attempted this run, so no full-page fetch was possible, and no primary OpenAI announcement page was located.
+
+### [CONFIRMED] Google rolls out Gemini 4 Carbon into AI Mode in Search, limited to AI Ultra subscribers
+Google began a wider rollout of its Gemini 4 Carbon model on Nov 10, 2026, making it selectable from the AI Mode model menu in Search — restricted to Google AI Ultra subscribers aged 18+ in supported countries, with daily usage caps; it's also available in the Gemini app and Antigravity. The prior model (reported as "Argon") remains available to AI Pro and up; Google hasn't said when or if free/lower tiers will get Gemini 4 Carbon in Search. Independently reported by Search Engine Roundtable, 9to5Google, Android Authority, Digital Trends, and Google's own JP/KR blogs.
+**What this means:** A capability upgrade, not a citation-behavior change — no evidence this alters how AI Mode selects or cites sources. Worth a watch-item only: if/when it reaches free-tier AI Mode, re-check whether answer structure, summarization depth, or sourcing patterns shift, since that's the point it would start to matter for GEO.
+Sources: [Search Engine Roundtable](https://seroundtable.com/gemini-4-carbon-google-search-ai-mode-42502.html), [Android Authority](https://androidauthority.com/google-gemini-4-carbon-rollout-3733702)
+Evidence: search-result snippets only — seroundtable.com and androidauthority.com were blocked by the egress proxy this run (WebFetch returned ENOTFOUND/DNS resolution failures).
+
+### [CONFIRMED] Yahoo relaunches search as "Pivot Search"; Yahoo Scout exits beta, reports 3B+ answers served
+Yahoo announced on Nov 10, 2026 a rebuild of Yahoo Search called "Pivot Search," letting users toggle between classic results and AI answers from Yahoo Scout (Yahoo's Anthropic/Microsoft-backed answer engine, in beta since January 2026); Scout itself exits beta with this release and Yahoo says it has served 3B+ answers since launch. New iOS/Android Scout apps ship alongside, adding voice and photo queries. Live on desktop and mobile web in the US, UK, Europe, and Switzerland. Reported by Search Engine Roundtable, Fast Company, and other trade outlets; no primary Yahoo press post located.
+**What this means:** Another generative answer engine graduating from beta into a mainstream search surface — low volume relative to Google/ChatGPT today, but one more GEO/AEO target worth including in multi-engine citation audits for clients who track beyond Google and ChatGPT, especially given Scout's Claude/Anthropic backing.
+Sources: [Search Engine Roundtable](https://seroundtable.com/yahoo-pivot-search-yahoo-scout-42501.html)
+Evidence: search-result snippets only — seroundtable.com was blocked by the egress proxy this run (WebFetch returned ENOTFOUND/DNS resolution failure).
+
+---
+
 ## 2026-11-11
 
 ### [CONFIRMED] Google November 2026 core update rolling out globally — MAJOR
