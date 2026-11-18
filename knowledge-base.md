@@ -6,6 +6,16 @@ format and source guidance.
 
 ---
 
+## 2026-11-18
+
+### [CONFIRMED] Google expands Gemini 4 Carbon to AI Pro subscribers and drops the "Gemini" label from the AI Mode header
+Search Engine Roundtable reported around Nov 17, 2026 that Google extended Gemini 4 Carbon access in AI Mode beyond the AI Ultra-only tier logged here on 2026-11-14 to also cover AI Pro subscribers, and separately removed the Gemini model-name label from the AI Mode interface header. A Google representative reportedly said dropping the label was intentional while the company considers a replacement way to indicate which model is answering. Nothing in the available reporting suggests this changes how AI Mode selects, ranks, or cites sources — it reads as an access-tier and UI change, not a citation-behavior shift.
+**What this means:** Same guidance as the 2026-11-14 entry on Carbon's Ultra-only rollout — a capability upgrade now reaching more subscribers, not a GEO-relevant change on its own. Worth tracking only as part of the broader pattern of Google quietly rotating which Gemini variant powers AI Mode/AI Overviews (Argon → Carbon → the separately-reported Hydrogen as a default "everyday" model around Nov 12), since a future swap could eventually affect answer structure or citation behavior even if this round doesn't.
+Sources: [Search Engine Roundtable](https://www.seroundtable.com/google-ai-mode-drops-gemini-label-42540.html)
+Evidence: search-result headline/snippet only — seroundtable.com was blocked by the egress proxy this run (WebFetch returned ENOTFOUND), so the article body could not be read or independently verified beyond the indexed headline.
+
+---
+
 ## 2026-11-14
 
 ### [CONFIRMED] OpenAI launches "Businesses in ChatGPT" — Business Hub, verified profiles, Business Agents, and brand-mention analytics — MAJOR (AEO)
