@@ -6,6 +6,34 @@ format and source guidance.
 
 ---
 
+## 2026-11-20
+
+### [CHATTER] Google AI Overviews reportedly reverts to a default, unfaded 3-citation card display on desktop
+Brodie Clark (via Search Engine Roundtable, Nov 18, 2026) reported that after Google removed AI Overview citation cards from desktop entirely last month, it now appears to have reversed that and is enforcing a default state showing three citation cards with no fade on the last one. This is the latest swing in a citation-card display test Google has run repeatedly since September 2026 (bottom-vs-right placement, white vs. blue background, AI-generated summary snippets on cards, and a prior apparent removal test) — this log has tracked several rounds of it, most recently the 2026-10-24 entry on AI-generated summary snippets.
+**Corroboration:** Single spotter (Brodie Clark) relayed through one outlet (SER); no second independent practitioner or outlet confirmation found this run, and Google has not commented.
+**What would confirm or kill it:** Other practitioners independently observing the same unfaded 3-card default, or Google confirming a settled display, would confirm it; the layout reverting again on retest (as it has in prior rounds) would continue the inconclusive pattern.
+**What this means:** No new action yet, but this remains the single most-tested visual surface in AI Overviews — if Google settles on a stable citation-card format, re-audit how client content performs in that card (snippet text, source-icon placement) since it directly affects click-through from AI Overviews.
+Sources: [Search Engine Roundtable](https://www.seroundtable.com/google-ai-overviews-with-unfaded-citations-42563.html)
+Evidence: search-result snippets only — seroundtable.com was blocked by the egress proxy this run (WebFetch returned ENOTFOUND), so the article body could not be independently verified.
+
+### [CHATTER] Google again tests dropping the AI Mode tab and the "Ask anything" follow-up box
+Search Engine Roundtable reported around Nov 13-16, 2026 that Google is testing removing the AI Mode tab from the Search tab bar and separately removing the "Ask anything" follow-up box beneath AI Overviews. This extends the single-sighting AI Mode button removal first logged here on 2026-11-07 (then limited to Incognito/Chrome) into a second, broader round covering more surfaces. Some practitioners speculate Google may be testing the monetization tradeoff of AI Mode (ads reportedly monetize AI Mode less effectively than classic search), but this is unconfirmed speculation, not something Google has said.
+**Corroboration:** Still funneling through a single outlet (SER) describing an apparently limited/segmented test; no tracker data or independent practitioner reproduction found this run.
+**What would confirm or kill it:** Wider practitioner reproduction, or Google confirming an intentional rollback/test, would confirm it; the tab/box reappearing on retest — the pattern for every prior round of this specific test — would continue to undercut it.
+**What this means:** Still nothing actionable, but now a repeated pattern rather than a one-off — worth flagging to clients as a sign Google itself may be uncertain about AI Mode's placement and ad economics, which is relevant context if a client asks whether to deprioritize AI Mode-specific optimization.
+Sources: [Search Engine Roundtable](https://www.seroundtable.com/google-dropping-ai-mode-again-42534.html)
+Evidence: search-result snippets only — seroundtable.com was blocked by the egress proxy this run (WebFetch returned ENOTFOUND).
+
+### [CHATTER] OpenAI reportedly testing web-first results, a "See more" button, and other ChatGPT search result formats
+Search Engine Roundtable (Barry Schwartz) reported around Nov 16, 2026 on practitioner sightings of ChatGPT testing several search-result display variants: a web-results-only view (spotted by Joe Youngblood on X), a format showing plain web results before ChatGPT's normal richer answer, and a Google AI Overviews-style layout with the AI answer on top, a "See more" button, and web results below. Schwartz said he could not reproduce any of these himself.
+**Corroboration:** Single spotter per variant, relayed through one outlet, unreproduced even by the reporting journalist — weak, on par with the lower end of chatter logged in this file.
+**What would confirm or kill it:** Other users/practitioners independently reproducing any of these formats, or OpenAI confirming a test, would confirm it; continued failure to reproduce would kill it.
+**What this means:** Nothing actionable yet, but the "See more" / AI-answer-plus-web-results format would mirror Google's AI Overviews structure — if it ships, it's directly GEO/AEO-relevant (changes what counts as a "citation" vs. a plain web result in ChatGPT) and worth testing for client queries the moment it's reproducible.
+Sources: [Search Engine Roundtable](https://www.seroundtable.com/chatgpt-search-result-tests-42537.html)
+Evidence: search-result snippets only — seroundtable.com was blocked by the egress proxy this run (WebFetch returned ENOTFOUND).
+
+---
+
 ## 2026-11-18
 
 ### [CONFIRMED] Google expands Gemini 4 Carbon to AI Pro subscribers and drops the "Gemini" label from the AI Mode header
