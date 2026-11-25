@@ -6,6 +6,16 @@ format and source guidance.
 
 ---
 
+## 2026-11-25
+
+### [CONFIRMED] Google confirms November 2026 core update rollout is complete — MAJOR
+Google's Search Status Dashboard, and Google's own Search Central account on X, confirmed the November 2026 core update — which began rolling out Nov 10, 2026 and was logged here as [CONFIRMED]/MAJOR on 2026-11-11 — finished rolling out as of November 24, 2026, roughly 13 days 20 hours after it started, just under the two-week window Google had flagged. Google's guidance (per Search Engine Journal/Search Engine Land coverage) remains to wait at least a week past completion before drawing conclusions from ranking swings. Independently reported by Search Engine Journal, Search Engine Land, Search Engine Watch, Search Engine Roundtable, and Google Search Central's own X account — well above the single-source bar.
+**What this means:** Tell clients the rollout clock has stopped — any ranking movement from here on is a genuine post-update signal, not mid-rollout noise, but Google's own advice is still to wait roughly another week (to early December) before reacting. Because the rollout spanned Black Friday/Cyber Monday, as flagged in the 2026-11-11 entry, e-commerce clients' post-completion Search Console comparisons should isolate holiday-week demand swings from actual update impact before attributing any traffic change to the update itself.
+Sources: [Search Engine Journal](https://www.searchenginejournal.com/google-november-2026-core-update-complete/598751/), [Search Engine Land](https://searchengineland.com/google-november-2026-core-update-rollout-is-now-complete-502268), [Search Engine Watch](https://searchenginewatch.com/google-november-2026-core-update-completes-after-two-weeks/), [Search Engine Roundtable](https://www.seroundtable.com/google-november-2026-core-update-done-42571.html), [Google Search Central (X)](https://x.com/googlesearchc/status/2125241209077797206)
+Evidence: search-result snippets only — searchenginejournal.com and seroundtable.com were blocked by the egress proxy this run (WebFetch returned ENOTFOUND), so no article body could be independently fetched; corroboration rests on agreement across independent outlets in search snippets, including Google's own Search Central account on X, not a full-page fetch of any one source.
+
+---
+
 ## 2026-11-20
 
 ### [CHATTER] Google AI Overviews reportedly reverts to a default, unfaded 3-citation card display on desktop
