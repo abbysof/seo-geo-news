@@ -6,6 +6,17 @@ format and source guidance.
 
 ---
 
+## 2026-11-27
+
+### [ANTICIPATED] Google preannounces a December 2026 core update — first time pre-announcing a core update in advance — MAJOR
+Google announced on November 24, 2026 — the same day it confirmed the November 2026 core update (logged here 2026-11-25) had finished rolling out — that a further core update is scheduled for December 2026, with no rollout start date given yet. Google says the update aims to improve ranking for longer, more complex queries and for results shown to users with personalization turned on, and applies globally across all languages/locations where Search is available. Multiple outlets note this is the first time Google has pre-announced a core update ahead of its rollout, reversing its longstanding position that core updates can't be announced in advance; some coverage — not confirmed by Google — ties the shift to UK Competition and Markets Authority transparency requirements.
+Independently reported by Search Engine Land, Search Engine Roundtable, Search Engine Journal, and PPC Land — consistent corroboration of a company-announced policy shift, resting on Google's own Search Status Dashboard notice rather than a dedicated blog post located in search snippets.
+**What this means:** Tell clients a core update is coming in December with no confirmed start date yet — watch the Search Status Dashboard for the actual rollout trigger rather than assuming a date. The stated focus (complex/long-tail queries, personalization) is worth flagging to clients whose traffic leans on conversational or highly personalized query types. Separately, the policy shift toward pre-announcing core updates — if it holds for future updates — is itself worth tracking, since it would change how far in advance clients can be warned of an incoming ranking-volatility window.
+Sources: [Search Engine Land](https://searchengineland.com/google-preannounced-the-december-2026-core-update-but-it-is-not-live-or-active-yet-502947), [Search Engine Roundtable](https://www.seroundtable.com/google-december-2026-core-update-42615.html), [Search Engine Journal](https://www.searchenginejournal.com/google-december-2026-core-update/598760/), [PPC Land](https://ppc.land/google-preannounces-a-december-core-update-as-ai-overview-links-slide-down/)
+Evidence: search-result snippets only — searchengineland.com, seroundtable.com, searchenginejournal.com, and ppc.land were all blocked by the egress proxy this run (WebFetch returned ENOTFOUND), so no article body could be independently fetched; corroboration rests on agreement across independent outlets in search snippets.
+
+---
+
 ## 2026-11-25
 
 ### [CONFIRMED] Google confirms November 2026 core update rollout is complete — MAJOR
